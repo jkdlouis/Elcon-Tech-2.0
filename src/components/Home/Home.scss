@@ -1,0 +1,271 @@
+@import '../../colors';
+
+.home {
+  h1 {
+    margin: 30px 0;
+    position: relative;
+  }
+}
+
+.about {
+  padding: 3rem;
+  h1 {
+    margin-bottom: 50px;
+  }
+  h1.title-line:before {
+    background-color: $main-green;
+    content: "";
+    position: absolute;
+    left: 35%;
+    top: 20px;
+    height: 1px;
+    z-index: 1;
+  }
+  span {
+    background-color: white;
+    padding: 0 20px;
+    z-index: 2;
+    position: relative;
+  }
+  p {
+    line-height: 2em;
+    color: #999999;
+    font-size: 1.5em;
+  }
+
+}
+
+//history
+.history {
+  background-color: $light-gray;
+  padding: 3rem;
+  height: 80rem;
+  h1 {
+    margin-bottom: 100px;
+  }
+  h1.title-line:before {
+    left: 35%;
+    top: 20px;
+  }
+  h1 span {
+    background-color: $light-gray;
+    padding: 0 20px;
+    z-index: 2;
+    position: relative;
+  }
+  ul {
+    line-height: 2em;
+    color: #787878;
+  }
+}
+//timeline
+
+.timeline {
+  list-style: none;
+  width: 100%;
+  margin: 200px 0 0;
+  border-top: 6px solid $line;
+  display: table;
+  padding: 0;
+  li {
+    display: table-cell;
+    position: relative;
+    width: 80px;
+  }
+}
+
+span.circle {
+  margin: 0 auto;
+  top: -14px;
+  left: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background: $bg;
+  border: 6px solid $red;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+}
+.date {
+  font-size: 1.5em;
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+  margin-bottom: 235px;
+
+}
+.content {
+  text-align: center;
+  position: relative;
+}
+
+.avatar {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 117px;
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+  border: 2px solid $red;
+}
+
+.content:before {
+  content: '';
+  width: 50px;
+  height: 160px;
+  left: 50%;
+  margin-left: -2px;
+  position: absolute;
+}
+
+li.down {
+  .content {
+    margin-bottom: -115px;
+    &:before {
+      border-left: 4px solid $red;
+      margin-top: -98px;
+    }
+  }
+  .date {
+    margin-bottom: 232px;
+    margin-left: 33px;
+  }
+  span.circle {
+    margin-top: 12px;
+  }
+  .avatar {
+    margin-top: 116px;
+  }
+}
+
+li.up {
+  .content {
+    top: 0;
+    margin-top: 30px;
+    &:before {
+      border-left: 4px solid $red;
+      margin-top: 55px;
+    }
+  }
+  .date {
+    margin-left: 34px;
+    margin-bottom: 195px;
+  }
+  span.circle {
+    margin-top: -11px;
+  }
+  .avatar {
+    margin-top: -270px;
+  }
+}
+
+.certificate {
+  padding: 3rem;
+  h1 {
+    margin-bottom: 20px;
+  }
+  h1.title-line:before {
+    left: 35%;
+    top: 20px;
+  }
+  span {
+    background-color: white;
+    padding: 0 20px;
+    z-index: 2;
+    position: relative;
+  }
+  h4 {
+    margin-bottom: 50px;
+    color: #999999;
+  }
+}
+
+/* Portrait */
+
+@media (min-width:300px) and (max-width:450px) and (orientation: portrait) {
+  .about, .certificate {
+    padding: 10px;
+  }
+
+  h1, h2, h3 {
+    font-size: 2em !important;
+  }
+  h4, h5, h6 {
+    font-size: 1em !important;
+  }
+  ol.carousel-indicators {
+    display: none;
+  }
+  h1.title-line:before {
+    top: 10px;
+    width: 80%;
+    left: 10%;
+  }
+  .carousel {
+    height: 195px !important;
+  }
+  .about {
+    h1 {
+      margin: 10px 0;
+    }
+    h1.title-line:before {
+      top: 9px;
+      width: 90%;
+      left: 5%;
+      height: 1px;
+    }
+  }
+  .certificate {
+    padding: 0 10px;
+    margin-bottom: 10px;
+    h1 {
+      margin-top: 10px 0;
+    }
+    h1.title-line:before {
+      top: 9px;
+      width: 90%;
+      left: 5%;
+      height: 1px;
+    }
+    h4 {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+//landscape
+
+@media (min-width:550px) and (max-width:750px) and (orientation: landscape) {
+  .about, .certificate {
+    padding: 10px;
+  }
+  h1, h2, h3 {
+    font-size: 2em !important;
+  }
+  ol.carousel-indicators {
+    display: none;
+  }
+  .carousel {
+    height: 367px !important;
+  }
+  .about {
+
+    h1.title-line:before {
+      top: 28px;
+      width: 53%;
+      left: 24%;
+      height: 1px;
+    }
+  }
+  .certificate {
+    h1.title-line:before {
+      top: 28px;
+      width: 53%;
+      left: 24%;
+      height: 1px;
+    }
+  }
+}
+
