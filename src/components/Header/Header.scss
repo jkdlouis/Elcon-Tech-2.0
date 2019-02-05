@@ -1,0 +1,34 @@
+@import '../../colors';
+
+.acme-navbar-text{
+  color: white;
+}
+
+.elcon-logo {
+  margin-top: 5px;
+}
+
+//contact header
+
+.contact-header {
+  background-color: $light-gray ;
+  ul {
+    margin-right: 1.5%;
+  }
+  ul > li {
+    margin-right: 30px;
+  }
+  h4 {
+    font-size: 1em;
+  }
+}
+
+.contact-header
+  .fa.fa-envelope,
+   .contact-header .fa.fa-phone {
+  color: $main-green;
+  margin-right: 10px;
+}
+
+
+

@@ -1,4 +1,5 @@
 import React from 'react';
+import Certificate from '../../assets/images/backgrounds/certificates.jpg';
 import './Home.scss';
 
 const home = (props) => {
@@ -42,9 +43,9 @@ const home = (props) => {
 
             <div className="row history d-none d-md-block">
                 <div className="col-12">
-                    <h1 className="text-center title-line">
+                    <h2 className="text-center title-line">
                         <span>History</span>
-                    </h1>
+                    </h2>
                     <div className="row">
                         <div className="col-md-12">
                             <ul className='timeline'>
@@ -178,13 +179,14 @@ const home = (props) => {
             </div>
             <div className="certificate">
                 <div className="row text-center">
-                    <div className="col-12">
-                        <h1 className="title-line"><span>Certificates</span></h1>
+                    <div className="col-12 d-fex justify-content-center align-items-center">
+                        <h3 className="title-line">
+                            <span>Certificates</span>
+                        </h3>
                         <h4>We Are a Certified Supplier Of Aluminum Electrolytic Capacitors</h4>
-                        <div className="col-11 offset-1">
-                            <img className="img-responsive" ng-src="{{main.certificate.image}}"
-                                 alt="{{main.certificate.name}}"/>
-                        </div>
+                            <img className="img-responsive"
+                                 src={ Certificate }
+                                 alt="Elcon Business Certificate"/>
                     </div>
                 </div>
             </div>

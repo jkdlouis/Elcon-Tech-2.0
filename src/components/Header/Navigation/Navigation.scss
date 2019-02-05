@@ -1,103 +1,14 @@
-.acme-navbar-text{
-  color: white;
-}
-
-.elcon-logo {
-  margin-top: 5px;
-}
-
-//contact header
-
-.contact-header {
-  background-color: $light-gray ;
-  ul {
-    margin-right: 1.5%;
-  }
-  ul > li {
-    margin-right: 30px;
-  }
-  h4 {
-    font-size: 1em;
-  }
-}
-
-.contact-header .fa.fa-envelope, .contact-header .fa.fa-phone {
-  color: $main-green;
-  margin-right: 10px;
-}
-
-//language links
-
-.language-links {
-  margin-right: 1%;
-
-}
-
-ul > li.language {
-  font-size: 1em;
-  margin-right: 20px;
-  margin-top: 70px;
-}
-
-.navbar.navbar-static-top.navbar-inverse {
-  margin: 10px -15px 0 -15px;
-  background-color: $main-green;
-  border: none;
-}
-
-.navbar-nav {
-  width: 100%;
-  text-align: center;
-  height: 50px;
-  > li {
-    float: none;
-    display: inline-block;
-    margin-left: 30px;
-  }
-}
-
-.navbar-inverse .navbar-nav > li > a {
-  color: white;
-  background-color: $main-green;
-  font-size: 1.5em;
-  letter-spacing: 1px;
-}
-.navbar-inverse .navbar-nav > li > a:hover {
-  color: black;
-}
-
-.navbar-inverse .navbar-nav > .active > a {
-  background-color: $dark-gray;
-  height: 100%;
-}
-
-//portrait
-
-@media screen and (min-device-width: 300px) and (max-device-width: 450px)
-and (orientation: portrait) {
-  .phone {
-    text-align: left;
-  }
-  .email {
-    text-align: right;
-  }
-
-  ul.nav.navbar-nav {
-    height: 250px;
-    width: 107%;
-    > li {
-      width: 100%;
-      margin: 10px 0;
+.navigation {
+  .navbar-light
+    .navbar-nav {
+    padding-top: 0;
+    padding-bottom: 0;
+    .nav-link {
+      color: white;
     }
   }
-  .navbar-inverse .navbar-nav > li > a {
-    width: 100%;
-  }
-
-  .navbar-inverse .navbar-nav > .active > a {
-    width: 100%;
-  }
-  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    padding: 0;
-  }
 }
+
+
+
+

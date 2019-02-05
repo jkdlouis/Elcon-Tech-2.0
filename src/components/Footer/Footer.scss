@@ -6,28 +6,25 @@
   color: white;
   padding: 30px;
 
-  h1 {
+  h5 {
     color: #018B3E;
     margin-bottom: 20px;
-    font-size: 3em;
+    font-size: 2rem;
   }
-  h4 {
-    font-size: 1.5em;
+
+  p.address {
+    font-size: 1.3rem;
   }
-  h5 {
+
+  p.phone, p.footer-note {
     margin-top: 30px;
-    font-size: 1em;
+    font-size: 1rem;
   }
 }
 
 .footerNav {
-  font-size: 1.5em;
   background-color: #283136;
   padding: 20px 0;
-  ul > li {
-    margin-right: 30px;
-    letter-spacing: 1px;
-  }
   a {
     color: white;
   }
@@ -40,7 +37,7 @@
 and (orientation: portrait) {
   .footer {
     h1 {
-      font-size: 1.5em!important;
+      font-size: 1.5em !important;
     }
     h4 {
       line-height: 2em;
