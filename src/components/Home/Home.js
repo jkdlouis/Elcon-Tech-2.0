@@ -1,14 +1,59 @@
 import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 import Certificate from '../../assets/images/backgrounds/certificates.jpg';
+import slideOne from '../../assets/images/carousel/home_ribbon.jpg';
+import slideTwo from '../../assets/images/carousel/component_supply_chain.jpg';
+import slideThree from '../../assets/images/carousel/customer_relationship.jpg';
+import CallOutPanel from '../../components/UI/CalloutPanel/CalloutPanel';
 import './Home.scss';
 
 const home = (props) => {
+
     return (
-        <div className="home">
+        <div className="home" id="home">
             <div className="row">
-                {/*carousel section*/}
+                <div className="col-12 p-0">
+                    <Carousel>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={ slideOne }
+                                alt="First slide"
+                            />
+                            <CallOutPanel
+                                description="Our Professional Team Is Here To Help You"
+                                link="/#about"
+                                btnText="About Us"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={ slideTwo }
+                                alt="Second slide"
+                            />
+                            <CallOutPanel
+                                description="Elcon Technology Only Offers High Quality Electrolytic Capacitors"
+                                link="/product"
+                                btnText="View Product"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={ slideThree }
+                                alt="Third slide"
+                            />
+                            <CallOutPanel
+                                description="Our Professional Team Is Here To Help You"
+                                link="/contact"
+                                btnText="Contact Us"
+                            />
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
             </div>
-            <div className="about">
+            <div className="about" id="about">
                 <div className="row">
                     <div className="col-12">
                         <h1 className="text-center title-line">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.scss';
 
 const footer = (props) => {
@@ -20,19 +21,16 @@ const footer = (props) => {
                 <div className="col-12 text-center footerNav">
                     <ul className="list-unstyled list-inline d-flex justify-content-center align-items-center">
                         <li className="list-inline-item mr-3">
-                            <a href="#/">Home</a>
+                            <Link to="/">Home</Link>
                         </li>
                         <li className="list-inline-item mr-3">
-                            <a href="/about">About</a>
+                            <Link to="/product">Product</Link>
                         </li>
                         <li className="list-inline-item mr-3">
-                            <a href="/product">Product</a>
-                        </li>
-                        <li className="list-inline-item mr-3">
-                            <a href="/facility">Facility</a>
+                            <Link to="/facility">Facility</Link>
                         </li>
                         <li className="list-inline-item">
-                            <a href="/contact">Contact</a>
+                            <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>

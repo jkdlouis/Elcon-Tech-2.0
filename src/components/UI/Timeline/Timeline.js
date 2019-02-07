@@ -32,8 +32,7 @@ const timeline = (props) => {
 
                     <h1>1984</h1>
                     <p>DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                    <br></br>
-                        <p>Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
+                    <p>Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
                 </li>
 
                 <li id="1987">
@@ -45,7 +44,6 @@ const timeline = (props) => {
 
                     <h1>1991</h1>
                     <p>Acquisition of the Quality Inn in Ontario, CA (repositioned as: Holiday Inn Express)</p>
-                    <br></br>
                         <p>Construction of the Econo Lodge Flagstaff East, AZ (repositioned as: Days Inn)</p>
                 </li>
                 <li id="1992">
@@ -62,7 +60,6 @@ const timeline = (props) => {
 
                     <h1>1995</h1>
                     <p>Acquisition of the Comfort Inn San Diego (repositioned as: Holiday Inn Express)</p>
-                    <br></br>
                         <p>Acquisition of the Harbor Inn Anaheim, CA (repositioned as: Comfort Inn)</p>
                         <br>
                             <p>Construction of the Hampton Inn Flagstaff East (repositioned as: Country Inn &
@@ -72,7 +69,6 @@ const timeline = (props) => {
 
                     <h1>1996</h1>
                     <p>Acquisition of the Travelodge Midway San Diego, CA</p>
-                    <br></br>
                     <p>Acquisition of the Midway Motel in San Diego, CA (repositioned as: Travelodge
                         SeaWorld)</p>
                 </li>
@@ -81,7 +77,6 @@ const timeline = (props) => {
                     <h1>1997</h1>
                     <p>Acquisition of the Newport Bay Inn in Costa Mesa, CA (repositioned as: Holiday Inn
                         Express)</p>
-                    <br></br>
                         <p>Acquisition of the Newport Beach Inn in Newport Beach, CA (repositioned as: Best
                             Western)</p>
                         <br>
@@ -91,7 +86,6 @@ const timeline = (props) => {
 
                     <h1>1998</h1>
                     <p>Acquisition of the Days Inn I-40 in Flagstaff, AZ</p>
-                    <br></br>
                         <p>Acquisition of the Days Inn in San Diego, CA (repositioned as: Best Western)</p>
                         <br>
                             <p>Acquisition of the Del Norte Inn in Camarillo, CA (repositioned as: Holiday Inn
@@ -106,8 +100,7 @@ const timeline = (props) => {
                     <br>
                         <p>Acquisition of the Quality Suites in San Clemente, CA (repositioned as: Hampton Inn &
                             Suites)</p>
-                        <br></br>
-                            <p>Acquisition of the Conestoga Hotel in Anaheim, CA (repositioned as: Holiday Inn &
+                                <p>Acquisition of the Conestoga Hotel in Anaheim, CA (repositioned as: Holiday Inn &
                                 Suites)</p>
                         </p>
                 </li>
@@ -121,7 +114,6 @@ const timeline = (props) => {
                     <h1>2001</h1>
                     <p>Acquisition of the Newport Classic Inn in Newport Beach, CA (repositioned as: Holiday Inn
                         Express)</p>
-                    <br></br>
                         <p>Acquisition of the Goodnite Inn in Ontario, CA</p>
                         <br>
                             <p>Acquisition of the Laguna Beach Inn in Laguna Beach, CA</p>
@@ -131,7 +123,6 @@ const timeline = (props) => {
                     <h1>2002</h1>
                     <p>Acquisition of the Best Western Westwood Hotel in Los Angeles, CA (repositioned as: Holiday
                         Inn Express)</p>
-                    <br></br>
                         <p>Acquisition of the Super 8 Motel in Flagstaff, AZ</p>
                         <br>
                             <p>Acquisition of the Best Western Raffles Inn in Anaheim, CA</p>
@@ -140,12 +131,9 @@ const timeline = (props) => {
 
                     <h1>2004</h1>
                     <p>Acquisition of the Fairfield Inn in Buena Park, CA </p>
-                    <br></br>
                         <p>Acquisition of the Heritage Hotel in Sacramento, CA (repositioned as Courtyard Inn and
                             Fairfield Inn)</p>
-                    <br></br>
                             <p>Construction of the New Town Place in Sacramento, CA</p>
-                    <br></br>
                                 <p>Acquisition of the Fairfield Inn in Placentia, CA (repositioned as: Quality
                                     Inn)
                                 </p>
@@ -173,10 +161,8 @@ const timeline = (props) => {
 
                     <h1>2014</h1>
                     <p>Construction of the SpringHill Suites Anaheim Maingate in Anaheim, CA</p>
-                    <br></br>
                         <p>Acquisition of the Cardiff-by-the-Sea Lodge in Cardiff-by-the-Sea, CA</p>
-                        <br></br>
-                            <p>Acquisition of the Hilton Hotel in San Bernardino, CA (repositioned as:
+                                <p>Acquisition of the Hilton Hotel in San Bernardino, CA (repositioned as:
                                 DoubleTree)
                             </p>
                 </li>
@@ -185,12 +171,10 @@ const timeline = (props) => {
 
                     <h1>2015</h1>
                     <p>Acquisition of the Wyndham Garden Ventura Pierpont Inn in Ventura, CA</p>
-                    <br></br>
                         <p>Construction of the Residence Inn in Rancho Cucamonga, CA</p>
                         <br>
                             <p>Construction of the Hampton Inn & Suites in Murrietta, CA</p>
-                            <br></br>
-                                <p>Construction of the Homewood Suites in Irvine, CA</p>
+                                        <p>Construction of the Homewood Suites in Irvine, CA</p>
                 </li>
 
                 <li id="2016">

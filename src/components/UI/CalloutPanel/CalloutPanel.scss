@@ -1,0 +1,32 @@
+@import '../../../colors';
+
+.text-box {
+  z-index: 15;
+  position: absolute;
+  width: 400px;
+  background-color: rgba(0,0,0, 0.7);
+  top: 40%;
+  left: 15%;
+  color: $main-green;
+  font-size: 1.2rem;
+  font-weight:bold;
+  letter-spacing: 2px;
+  line-height: 30px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+}
+.text-box .btn-learn {
+  font-size: 1em;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 10px;
+  margin: 20px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+.text-box .btn-learn:hover {
+  color: $main-green;
+  border: 2px solid $main-green;
+}
