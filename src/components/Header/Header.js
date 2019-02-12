@@ -8,7 +8,7 @@ const header = (props) => {
         <Fragment>
             <div className="row contact-header">
                 <div className="col-12">
-                    <ul className="list-unstyled list-inline d-flex justify-content-end align-items-center">
+                    <ul className="list-unstyled list-inline d-flex justify-content-end align-items-center mt-3 mb-3">
                         <li className="list-inline-item phone mr-5">
                             <a href="mailto:info@elcon-fsd.com">
                                 <i className="fa fa-envelope"></i>

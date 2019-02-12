@@ -49,12 +49,15 @@
       line-height: 2em;
       color: #787878;
     }
+    .vertical-timeline {
+      width: 100%;
+    }
     .vertical-timeline--two-columns
       .vertical-timeline-element-content
         .vertical-timeline-element-date {
       color: white;
       font-weight: bold;
-      right: 120%;
+      right: 120.5%;
     }
   }
 
@@ -76,7 +79,7 @@
     .vertical-timeline--two-columns
     .vertical-timeline-element-content
     .vertical-timeline-element-date {
-      left: 120%;
+      left: 120.5%;
     }
   }
 }
@@ -93,7 +96,7 @@
       display: none;
     }
     .carousel {
-      height: 350px;
+      height: 100%;
     }
     .certificate {
       h1.title-line:before {

@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import Product from './containers/Product/Product';
 import Facility from './components/Facility/Facility';
 import Contact from './containers/Contact/Contact';
+import './index.scss';
 import './App.scss';
 
 class App extends Component {

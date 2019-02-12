@@ -55,11 +55,13 @@ const home = (props) => {
                     </Carousel>
                 </div>
             </div>
-            <div className="about" id="about">
-                <div className="row">
+            <div className="about text-center" id="about">
+                <div className="row justify-content-center">
                     <div className="col-12">
-                        <h1 className="text-center">
-                            <span>About US</span>
+                        <h1>
+                            <span className="main-green">*</span>
+                            About US
+                            <span className="main-green">*</span>
                         </h1>
                         <p>Elcon Technology manufactures high-quality aluminum electrolytic capacitors for use in
                             consumer
@@ -91,7 +93,9 @@ const home = (props) => {
             <div className="row history">
                 <div className="col-12">
                     <h2 className="text-center">
-                        <span>History</span>
+                        <span className="main-green">*</span>
+                        History
+                        <span className="main-green">*</span>
                     </h2>
                     <VerticalTimeline>
                         <VerticalTimelineElement
@@ -214,7 +218,9 @@ const home = (props) => {
                 <div className="row text-center">
                     <div className="col-12 d-fex justify-content-center align-items-center">
                         <h3 className="title-line">
-                            <span>Certificates</span>
+                            <span className="main-green">*</span>
+                            Certificates
+                            <span className="main-green">*</span>
                         </h3>
                         <h4>We Are a Certified Supplier Of Aluminum Electrolytic Capacitors</h4>
                             <img className="img-responsive w-100"

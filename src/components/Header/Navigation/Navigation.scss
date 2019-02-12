@@ -1,14 +1,22 @@
-.navigation {
-  .navbar-light
-    .navbar-nav {
-    padding-top: 0;
-    padding-bottom: 0;
-    .nav-link {
-      color: white;
-    }
-  }
+@import '../../../colors';
+
+.navbar {
+  background-color: $main-green;
 }
 
+.navbar-expand-xl .navbar-collapse {
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  margin-right: 55px;
+
+  &:active {
+   color: rgba(0,0,0,.7);
+  }
+}
 
 
 
