@@ -49,16 +49,6 @@
       line-height: 2em;
       color: #787878;
     }
-    .vertical-timeline {
-      width: 100%;
-    }
-    .vertical-timeline--two-columns
-      .vertical-timeline-element-content
-        .vertical-timeline-element-date {
-      color: white;
-      font-weight: bold;
-      right: 120.5%;
-    }
   }
 
   .certificate {
@@ -74,23 +64,13 @@
   }
 }
 
-@media only screen and (min-width: 1170px) {
-  .history {
-    .vertical-timeline--two-columns
-    .vertical-timeline-element-content
-    .vertical-timeline-element-date {
-      left: 120.5%;
-    }
-  }
-}
-
 @media (max-width:767px) {
   #home {
     .about, .certificate {
       padding: 10px;
     }
     h1, h2, h3 {
-      font-size: 2em !important;
+      font-size: 2rem;
     }
     ol.carousel-indicators {
       display: none;
@@ -111,14 +91,6 @@
         z-index: 100;
         margin: -100px auto 0 auto;
         background-color: rgba(0,0,0, 0.7);
-      }
-    }
-    .certificate {
-      h1.title-line:before {
-        top: 28px;
-        width: 53%;
-        left: 24%;
-        height: 1px;
       }
     }
   }

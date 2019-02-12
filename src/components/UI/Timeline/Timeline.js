@@ -1,194 +1,126 @@
 import React from 'react';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 import './TImeline.scss';
 
-const timeline = (props) => {
+const timeLine = (props) => {
     return (
-        <div id="timeline">
-            <ul id="dates">
-                <li><a href="#1984">1984</a></li>
-                <li><a href="#1987">1987</a></li>
-                <li><a href="#1991">1991</a></li>
-                <li><a href="#1992">1992</a></li>
-                <li><a href="#1993">1993</a></li>
-                <li><a href="#1995">1995</a></li>
-                <li><a href="#1996">1996</a></li>
-                <li><a href="#1997">1997</a></li>
-                <li><a href="#1998">1998</a></li>
-                <li><a href="#1999">1999</a></li>
-                <li><a href="#2000">2000</a></li>
-                <li><a href="#2001">2001</a></li>
-                <li><a href="#2002">2002</a></li>
-                <li><a href="#2004">2004</a></li>
-                <li><a href="#2006">2006</a></li>
-                <li><a href="#2007">2007</a></li>
-                <li><a href="#2009">2009</a></li>
-                <li><a href="#2014">2014</a></li>
-                <li><a href="#2015">2015</a></li>
-                <li><a href="#2016">2016</a></li>
-
-            </ul>
-            <ul id="issues">
-                <li id="1984">
-
-                    <h1>1984</h1>
-                    <p>DKN Hotels founded with the acquisition of the Surf Motel Carlsbad, CA</p>
-                    <p>Acquisition of the Marco Polo Inn Anaheim, CA (repositioned as: Days Inn)</p>
-                </li>
-
-                <li id="1987">
-
-                    <h1>1987</h1>
-                    <p>Acquisition of the Park Vue Anaheim, CA (repositioned as: Econo Lodge)</p>
-                </li>
-                <li id="1991">
-
-                    <h1>1991</h1>
-                    <p>Acquisition of the Quality Inn in Ontario, CA (repositioned as: Holiday Inn Express)</p>
-                        <p>Construction of the Econo Lodge Flagstaff East, AZ (repositioned as: Days Inn)</p>
-                </li>
-                <li id="1992">
-
-                    <h1>1992</h1>
-                    <p>Acquisition of the Sandman Inn Anaheim, CA (repositioned as: Ramada Limited)</p>
-                </li>
-                <li id="1993">
-
-                    <h1>1993</h1>
-                    <p>Acquisition of the Summer House Inn in San Diego, CA</p>
-                </li>
-                <li id="1995">
-
-                    <h1>1995</h1>
-                    <p>Acquisition of the Comfort Inn San Diego (repositioned as: Holiday Inn Express)</p>
-                        <p>Acquisition of the Harbor Inn Anaheim, CA (repositioned as: Comfort Inn)</p>
-                        <br>
-                            <p>Construction of the Hampton Inn Flagstaff East (repositioned as: Country Inn &
-                                Suites)</p>
-                </li>
-                <li id="1996">
-
-                    <h1>1996</h1>
-                    <p>Acquisition of the Travelodge Midway San Diego, CA</p>
-                    <p>Acquisition of the Midway Motel in San Diego, CA (repositioned as: Travelodge
-                        SeaWorld)</p>
-                </li>
-                <li id="1997">
-
-                    <h1>1997</h1>
-                    <p>Acquisition of the Newport Bay Inn in Costa Mesa, CA (repositioned as: Holiday Inn
-                        Express)</p>
-                        <p>Acquisition of the Newport Beach Inn in Newport Beach, CA (repositioned as: Best
-                            Western)</p>
-                        <br>
-                            <p>Acquisition of he Travelodge in San Marcos, CA (repositioned as: Ramada Limited)
-                </li>
-                <li id="1998">
-
-                    <h1>1998</h1>
-                    <p>Acquisition of the Days Inn I-40 in Flagstaff, AZ</p>
-                        <p>Acquisition of the Days Inn in San Diego, CA (repositioned as: Best Western)</p>
-                        <br>
-                            <p>Acquisition of the Del Norte Inn in Camarillo, CA (repositioned as: Holiday Inn
-                                Express)</p>
-                            <br>
-                                <p>Acquisition of the Quality Inn in Fresno, CA</p>
-                </li>
-                <li id="1999">
-
-                    <h1>1999</h1>
-                    <p>Acquisition of the Days Inn Route 66 in Flagstaff, AZ</p>
-                    <br>
-                        <p>Acquisition of the Quality Suites in San Clemente, CA (repositioned as: Hampton Inn &
-                            Suites)</p>
-                                <p>Acquisition of the Conestoga Hotel in Anaheim, CA (repositioned as: Holiday Inn &
-                                Suites)</p>
-                        </p>
-                </li>
-                <li id="2000">
-
-                    <h1>2000</h1>
-                    <p>Acquisition of the Best Western Desert Villa Inn in Barstow, CA</p>
-                </li>
-                <li id="2001">
-
-                    <h1>2001</h1>
-                    <p>Acquisition of the Newport Classic Inn in Newport Beach, CA (repositioned as: Holiday Inn
-                        Express)</p>
-                        <p>Acquisition of the Goodnite Inn in Ontario, CA</p>
-                        <br>
-                            <p>Acquisition of the Laguna Beach Inn in Laguna Beach, CA</p>
-                </li>
-                <li id="2002">
-
-                    <h1>2002</h1>
-                    <p>Acquisition of the Best Western Westwood Hotel in Los Angeles, CA (repositioned as: Holiday
-                        Inn Express)</p>
-                        <p>Acquisition of the Super 8 Motel in Flagstaff, AZ</p>
-                        <br>
-                            <p>Acquisition of the Best Western Raffles Inn in Anaheim, CA</p>
-                </li>
-                <li id="2004">
-
-                    <h1>2004</h1>
-                    <p>Acquisition of the Fairfield Inn in Buena Park, CA </p>
-                        <p>Acquisition of the Heritage Hotel in Sacramento, CA (repositioned as Courtyard Inn and
-                            Fairfield Inn)</p>
-                            <p>Construction of the New Town Place in Sacramento, CA</p>
-                                <p>Acquisition of the Fairfield Inn in Placentia, CA (repositioned as: Quality
-                                    Inn)
-                                </p>
-                </li>
-                <li id="2006">
-
-                    <h1>2006</h1>
-                    <p>Acquisition of the Amerisuites Hotel in Ontario, CA (repositioned as: Hyatt Place)</p>
-                </li>
-
-                <li id="2007">
-
-                    <h1>2007</h1>
-                    <p>Acquisitioon of the Country Plaza Inn in San Clemente, CA (repositioned as: Holiday Inn
-                        Express)</p>
-                </li>
-
-                <li id="2009">
-
-                    <h1>2009</h1>
-                    <p>Construction of the Hilton Garden Inn in San Bernardino, CA</p>
-                </li>
-
-                <li id="2014">
-
-                    <h1>2014</h1>
-                    <p>Construction of the SpringHill Suites Anaheim Maingate in Anaheim, CA</p>
-                        <p>Acquisition of the Cardiff-by-the-Sea Lodge in Cardiff-by-the-Sea, CA</p>
-                                <p>Acquisition of the Hilton Hotel in San Bernardino, CA (repositioned as:
-                                DoubleTree)
-                            </p>
-                </li>
-
-                <li id="2015">
-
-                    <h1>2015</h1>
-                    <p>Acquisition of the Wyndham Garden Ventura Pierpont Inn in Ventura, CA</p>
-                        <p>Construction of the Residence Inn in Rancho Cucamonga, CA</p>
-                        <br>
-                            <p>Construction of the Hampton Inn & Suites in Murrietta, CA</p>
-                                        <p>Construction of the Homewood Suites in Irvine, CA</p>
-                </li>
-
-                <li id="2016">
-
-                    <h1>2016</h1>
-                    <p>Construction of the SpringHill Suites in Carlsbad, CA</p>
-                </li>
-            </ul>
-            <div id="grad_left"></div>
-            <div id="grad_right"></div>
-            <a href="#" id="next">+</a>
-            <a href="#" id="prev">-</a>
-        </div>
+            <VerticalTimeline>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work odd"
+                    date="1990"
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">Electronics Co., Ltd.</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Yangzhou, China</h4>
+                    <p>
+                        Established Aijiang Industrial Co., Ltd . Founded Lingda Electronics Co., Ltd. in Yangzhou.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work even"
+                    date="1994"
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">Meijiang Electronics Co. Ltd.</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Dongguan Huang Jiang, China</h4>
+                    <p>
+                        Founded Aigao Electronics Co. Ltd in Nanjing. Established the Meijiang Electronics Co. Ltd. in Dongguan Huang Jiang.(Passed certification of THOMSO from France）
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    date="1995"
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">SHOEI</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Dongguan, China</h4>
+                    <p>
+                        Cooperated with SHOEI and supply OEM service for SHOEI, mainly for Japanese customers.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    date="1996"
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">SOSHIN, TOSHIN, SHOEI</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Dongguan, China</h4>
+                    <p>
+                        Cooperated with several Japan cooperation with OEM service, including SOSHIN, TOSHIN, SHOEI, NIC and so on.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    date="1998"
+                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">Aijiang Electronics Co. Ltd.</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Shenzhen, China</h4>
+                    <p>
+                        The establishment of the Shenzhen Aijiang Electronics Co. Ltd.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    date="2000"
+                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">Ai Jiang Electronics Factory</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Dongguan, China</h4>
+                    <p>
+                        Established Dongguan Ai Jiang Electronics Factory.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    date="2002"
+                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">Dongguan Li Jiang factory</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Dongguan, China</h4>
+                    <p>
+                        Established Dongguan Li Jiang factory.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    date="2004"
+                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">Research and Production</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Dongguan, China</h4>
+                    <p>
+                        Begin the Research and production of Polymer aluminum electric capacitors.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    date="2014"
+                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">Shaoguan Fushida Electronic Technology Co. Ltd.</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Guangdong, China</h4>
+                    <p>
+                        Completed the resources integration and founded Shaoguan Fushida Electronic Technology Co. Ltd. in Guangdong Province as our new production base.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    date="2015"
+                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">ELCON-Fushida office</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Shenzhen, China</h4>
+                    <p>
+                        Setup ELCON-Fushida office in Qianhai Free Trade Zone
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                />
+            </VerticalTimeline>
    );
-}
+};
 
-export default timeline;
+export default timeLine;
