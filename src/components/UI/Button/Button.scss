@@ -1,0 +1,16 @@
+@import '../../../colors';
+
+.btn-learn {
+  font-size: 1em;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 10px;
+  margin: 20px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  &:hover {
+    color: $main-green;
+    border: 2px solid $main-green;
+  }
+}

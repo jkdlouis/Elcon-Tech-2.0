@@ -19,4 +19,9 @@
 }
 
 
-
+@media screen and (max-width: 767px) {
+  .navbar-light .navbar-nav .nav-link {
+    margin-right: 0;
+    align-self: center
+  }
+}

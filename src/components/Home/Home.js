@@ -5,6 +5,7 @@ import slideOne from '../../assets/images/carousel/home_ribbon.jpg';
 import slideTwo from '../../assets/images/carousel/component_supply_chain.jpg';
 import slideThree from '../../assets/images/carousel/customer_relationship.jpg';
 import CallOutPanel from '../../components/UI/CalloutPanel/CalloutPanel';
+import Button from '../../components/UI/Button/Button';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import './Home.scss';
@@ -22,6 +23,10 @@ const home = (props) => {
                                 src={ slideOne }
                                 alt="First slide"
                             />
+                            <Button className="d-block d-md-none"
+                                    link="/#about"
+                                    btnText="About Us"
+                            />
                             <CallOutPanel
                                 description="Our Professional Team Is Here To Help You"
                                 link="/#about"
@@ -34,6 +39,10 @@ const home = (props) => {
                                 src={ slideTwo }
                                 alt="Second slide"
                             />
+                            <Button className="d-block d-md-none"
+                                    link="/product"
+                                    btnText="View Product"
+                            />
                             <CallOutPanel
                                 description="Elcon Technology Only Offers High Quality Electrolytic Capacitors"
                                 link="/product"
@@ -45,6 +54,10 @@ const home = (props) => {
                                 className="d-block w-100"
                                 src={ slideThree }
                                 alt="Third slide"
+                            />
+                            <Button className="d-block d-md-none"
+                                    link="/contact"
+                                    btnText="Contact Us"
                             />
                             <CallOutPanel
                                 description="Our Professional Team Is Here To Help You"
@@ -91,7 +104,7 @@ const home = (props) => {
             </div>
 
             <div className="row history">
-                <div className="col-12">
+                <div className="col-12 pr-0 pl-0">
                     <h2 className="text-center">
                         <span className="main-green">*</span>
                         History
