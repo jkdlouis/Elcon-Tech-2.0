@@ -9,7 +9,7 @@ const header = (props) => {
             <div className="row contact-header">
                 <div className="col-12">
                     <ul className="list-unstyled list-inline d-flex justify-content-end align-items-center">
-                        <li className="list-inline-item phone">
+                        <li className="list-inline-item phone mr-5">
                             <a href="mailto:info@elcon-fsd.com">
                                 <i className="fa fa-envelope"></i>
                                 info@elcon-fsd.com

@@ -2035,7 +2035,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.6:
+classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
 
@@ -2343,6 +2343,14 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     ripemd160 "^2.0.0"
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
+
+create-react-class@^15.6.3:
+  version "15.6.3"
+  resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
+  dependencies:
+    fbjs "^0.8.9"
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
 
 create-react-context@<=0.2.2:
   version "0.2.2"
@@ -3428,7 +3436,7 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
-fbjs@^0.8.0:
+fbjs@^0.8.0, fbjs@^0.8.9:
   version "0.8.17"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.17.tgz#c4d598ead6949112653d6588b01a5cdcd9f90fdd"
   dependencies:
@@ -7460,6 +7468,21 @@ react-transition-group@^2.5.1:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
+
+react-vertical-timeline-component@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/react-vertical-timeline-component/-/react-vertical-timeline-component-2.3.1.tgz#7b6a45d44cc72b91de50c240011a16402acef0fd"
+  dependencies:
+    classnames "^2.2.5"
+    prop-types "^15.6.1"
+    react-visibility-sensor "^4.1.0"
+
+react-visibility-sensor@^4.1.0:
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/react-visibility-sensor/-/react-visibility-sensor-4.1.3.tgz#9a3e9982caff3616cfece94e118e5b3c6e08ce6a"
+  dependencies:
+    create-react-class "^15.6.3"
+    prop-types "^15.6.2"
 
 react@^16.7.0:
   version "16.7.0"

@@ -12,7 +12,7 @@ class App extends Component {
     render() {
         let routes = (
             <Switch>
-                <Route path="/" exact component={Home}/>
+                <Route path="/" exact component={ Home }/>
                 <Route path="/product" exact component={ Product }/>
                 <Route path="/facility" exact component={ Facility }/>
                 <Route path="/contact" exact component={ Contact }/>

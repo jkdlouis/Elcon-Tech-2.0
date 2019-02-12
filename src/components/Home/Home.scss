@@ -3,30 +3,13 @@
 #home {
   h1, h2, h3  {
     margin: 30px 0;
-    position: relative;
-
-    span {
-      background-color: white;
-      padding: 0 20px;
-      z-index: 2;
-      position: relative;
-    }
-  }
-
-  .title-line:before {
-    content: "";
-    background-color: $main-green;
-    position: absolute;
-    height: 1px;
-    z-index: 1;
-    left: 35%;
-    top: 50%;
+    font-style: italic;
   }
 
   .carousel {
     width: 100%;
     overflow: hidden;
-    height: 600px !important;
+    height: 600px;
     position: relative;
     z-index: 1;
     img {
@@ -49,16 +32,6 @@
     h1 {
       margin-bottom: 50px;
     }
-    h1.title-line:before {
-      left: 35%;
-      top: 50%;
-    }
-    span {
-      background-color: white;
-      padding: 0 20px;
-      z-index: 2;
-      position: relative;
-    }
     p {
       line-height: 2em;
       color: #999999;
@@ -69,125 +42,19 @@
   .history {
     background-color: $light-gray;
     padding: 3rem;
-    height: 80rem;
     h2 {
-      margin-bottom: 100px;
       font-size: 2.5rem;
-    }
-    h2.title-line:before {
-      width: 31%;
-    }
-    h2 span {
-      background-color: $light-gray;
-      padding: 0 20px;
-      z-index: 2;
-      position: relative;
     }
     ul {
       line-height: 2em;
       color: #787878;
     }
-  }
-
-  .timeline {
-    list-style: none;
-    width: 100%;
-    margin: 25% 0 0 -2%;
-    border-top: 6px solid $line;
-    display: table;
-    padding: 0;
-    li {
-      display: table-cell;
-      position: relative;
-      width: 80px;
-    }
-  }
-
-  span.circle {
-    margin: 0 auto;
-    top: -14px;
-    left: 0;
-    right: 0;
-    width: 20px;
-    height: 20px;
-    background: $bg;
-    border: 6px solid $red;
-    border-radius: 50%;
-    display: block;
-    position: absolute;
-  }
-  .date {
-    font-size: 1.5em;
-    position: absolute;
-    left: 10px;
-    bottom: 5px;
-    margin-bottom: 235px;
-
-  }
-  .content {
-    text-align: center;
-    position: relative;
-  }
-
-  .avatar {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    width: 160px;
-    min-height: 100%;
-    text-align: center;
-    padding: 5px;
-    background-color: white;
-    border: 2px solid $red;
-  }
-
-  .content:before {
-    content: '';
-    width: 50px;
-    height: 254px;
-    left: 50%;
-    margin-left: -2px;
-    position: absolute;
-  }
-
-  li.down {
-    .content {
-      margin-bottom: -115px;
-      &:before {
-        border-left: 4px solid $red;
-        margin-top: -167px;
-      }
-    }
-    .date {
-      margin-bottom: 395px;
-      margin-left: 33px;
-    }
-    span.circle {
-      margin-top: 12px;
-    }
-    .avatar {
-      margin-top: 185px;
-    }
-  }
-
-  li.up {
-    .content {
-      top: 0;
-      margin-top: 30px;
-      &:before {
-        border-left: 4px solid $red;
-        margin-top: 125px;
-      }
-    }
-    .date {
-      margin-left: 34px;
-      margin-bottom: 340px;
-    }
-    span.circle {
-      margin-top: -11px;
-    }
-    .avatar {
-      margin-top: -420px;
+    .vertical-timeline--two-columns
+      .vertical-timeline-element-content
+        .vertical-timeline-element-date {
+      color: white;
+      font-weight: bold;
+      right: 120%;
     }
   }
 
@@ -197,16 +64,6 @@
       margin-bottom: 20px;
       font-size: 2.5rem;
     }
-    h3.title-line:before {
-      width: 35%;
-      left: 33%;
-    }
-    span {
-      background-color: white;
-      padding: 0 20px;
-      z-index: 2;
-      position: relative;
-    }
     h4 {
       margin-bottom: 50px;
       color: #999999;
@@ -214,88 +71,38 @@
   }
 }
 
-@media (max-width:767px) {
-  .about, .certificate {
-    padding: 10px;
-  }
-
-  h1, h2, h3 {
-    font-size: 2em !important;
-  }
-  h4, h5, h6 {
-    font-size: 1em !important;
-  }
-  ol.carousel-indicators {
-    display: none;
-  }
-  h1.title-line:before {
-    top: 10px;
-    width: 80%;
-    left: 10%;
-  }
-  .carousel {
-    height: 195px !important;
-  }
-  .about {
-    h1 {
-      margin: 10px 0;
-    }
-    h1.title-line:before {
-      top: 9px;
-      width: 90%;
-      left: 5%;
-      height: 1px;
-    }
-  }
-  .certificate {
-    padding: 0 10px;
-    margin-bottom: 10px;
-    h1 {
-      margin-top: 10px 0;
-    }
-    h1.title-line:before {
-      top: 9px;
-      width: 90%;
-      left: 5%;
-      height: 1px;
-    }
-    h4 {
-      margin-bottom: 10px;
+@media only screen and (min-width: 1170px) {
+  .history {
+    .vertical-timeline--two-columns
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
+      left: 120%;
     }
   }
 }
 
-////landscape
-//
-//@media (min-width:550px) and (max-width:750px) and (orientation: landscape) {
-//  .about, .certificate {
-//    padding: 10px;
-//  }
-//  h1, h2, h3 {
-//    font-size: 2em !important;
-//  }
-//  ol.carousel-indicators {
-//    display: none;
-//  }
-//  .carousel {
-//    height: 367px !important;
-//  }
-//  .about {
-//
-//    h1.title-line:before {
-//      top: 28px;
-//      width: 53%;
-//      left: 24%;
-//      height: 1px;
-//    }
-//  }
-//  .certificate {
-//    h1.title-line:before {
-//      top: 28px;
-//      width: 53%;
-//      left: 24%;
-//      height: 1px;
-//    }
-//  }
-//}
+@media (max-width:767px) {
+  #home {
+    .about, .certificate {
+      padding: 10px;
+    }
+    h1, h2, h3 {
+      font-size: 2em !important;
+    }
+    ol.carousel-indicators {
+      display: none;
+    }
+    .carousel {
+      height: 350px;
+    }
+    .certificate {
+      h1.title-line:before {
+        top: 28px;
+        width: 53%;
+        left: 24%;
+        height: 1px;
+      }
+    }
+  }
+}
 
