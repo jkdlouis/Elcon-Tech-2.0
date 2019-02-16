@@ -14,3 +14,16 @@
     border: 2px solid $main-green;
   }
 }
+
+@media (max-width: 767px) {
+  .btn-learn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 150px;
+    z-index: 100;
+    margin: -100px auto 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}

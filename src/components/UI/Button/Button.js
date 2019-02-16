@@ -4,7 +4,8 @@ import './Button.scss';
 
 const button = (props) => {
     return (
-        <Link role="button" to={ props.link } className="btn-learn">
+        <Link role="button" to={ props.link }
+              className={ props.btnClass }>
             { props.btnText }
         </Link>
     )
