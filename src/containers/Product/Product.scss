@@ -1,0 +1,27 @@
+@import '../../colors';
+
+.product-finder {
+  padding: 3rem;
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: $dark-gray;
+  }
+  h4 {
+    margin-bottom: 30px;
+    color: $dark-gray;
+    font-size: 1.5em;
+  }
+  .btn-learn {
+    color: $dark-gray;
+    border: 2px solid $dark-gray;
+    background-color: transparent;
+    padding: 15px;
+    margin: 10px;
+  }
+  .btn-learn:hover {
+    background-color: $dark-gray !important;
+    border: 2px solid white;
+    color: white;
+  }
+}

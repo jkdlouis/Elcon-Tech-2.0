@@ -1,0 +1,26 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  color: white;
+
+  &.product-banner {
+    background-image: url('../../../assets/images/backgrounds/product-cover-dark.jpg');
+  }
+
+  &.facility-banner {
+    background-image: url('../../../assets/images/backgrounds/join-the-team-dark.jpg');
+  }
+
+  &.contact-banner {
+    background-image: url('../../../assets/images/backgrounds/factory-3.jpg');
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 4em;
+    color: white;
+    margin-top: 40px;
+  }
+}

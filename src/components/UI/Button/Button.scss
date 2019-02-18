@@ -9,6 +9,7 @@
   margin: 20px;
   letter-spacing: 1px;
   border-radius: 5px;
+  box-sizing: border-box;
   &:hover {
     color: $main-green;
     border: 2px solid $main-green;

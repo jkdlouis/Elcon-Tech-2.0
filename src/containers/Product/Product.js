@@ -1,25 +1,31 @@
 import React, { Component } from 'react';
+import Banner from '../../components/UI/Banner/Banner';
+import Button from '../../components/UI/Button/Button';
+import './Product.scss';
 
 export class Product extends Component {
     render() {
         return (
-            <div className="">
-                <div className="row text-center product-cover">
+            <div className="product-page" id="product-page">
+                <Banner
+                 title="Elcon Products"
+                 subtitle="Providing a broad range of aluminum electrolytic capacitors for your needs"
+                 backgroundImage="product-banner"
+                />
+
+                <div className="row text-center product-finder">
                     <div className="col-12">
-                        <h1>Elcon Products</h1>
-                        <h4>Providing a broad range of aluminum electrolytic capacitors for your needs</h4>
+                        <h2>Aluminum Electrolytic Capacitors Finder</h2>
+                        <h4>Our ecosystem helps you reach to your product easier!</h4>
+                        <Button
+                         link="/product/product-finder"
+                         btnClass="btn-learn"
+                         btnText="SEARCH NOW">
+                            <i className="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                        </Button>
                     </div>
                 </div>
-                <div className="product-finder hidden-xs hidden-sm">
-                    <div className="row text-center">
-                        <div className="col-12">
-                            <h2>Aluminum Electrolytic Capacitors Finder</h2>
-                            <h4>Our ecosystem helps you reach to your product easier!</h4>
-                            <a href="#/product/product-finder"><button className="btn-group-lg btn-learn">SEARCH NOW <i className="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                            </button></a>
-                        </div>
-                    </div>
-                </div>
+
                 <div className="row text-center product-category">
                     <div className="col-12 col-md-4">
                         <div className="product" ng-mouseenter="solidChip = true" ng-mouseleave=" solidChip = false">

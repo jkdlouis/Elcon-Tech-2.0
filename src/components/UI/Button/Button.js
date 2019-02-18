@@ -4,9 +4,12 @@ import './Button.scss';
 
 const button = (props) => {
     return (
-        <Link role="button" to={ props.link }
+        <Link role="button"
+              to={ props.link }
+              disabled={ props.disabled }
               className={ props.btnClass }>
             { props.btnText }
+            { props.children }
         </Link>
     )
 };
