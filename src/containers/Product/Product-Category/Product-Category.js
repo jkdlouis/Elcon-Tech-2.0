@@ -8,7 +8,7 @@ export const productCategory = (props) => {
 
     if (props.productCategoryList && props.productCategoryList.data.length) {
         productCategoryList = props.productCategoryList.data.map(data => (
-            <div className="col-12 col-md-4">
+            <div className="col-12 col-md-4" key={ data.category }>
                 <div className="product">
                     <Link to={ data.url }>
                         <div className={ `d-flex justify-content-center align-items-center background ${ data.backgroundClass }`}>
