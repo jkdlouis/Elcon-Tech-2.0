@@ -6,7 +6,7 @@ import * as URL from '../../constants';
 export function* initialTimeLineSaga(action) {
     try {
         const response = yield axios.get(URL.TIMELINE_API);
-        yield put(actions.getTimeLine(response.data));
+        yield put(actions.getTimeLine(response.data.data));
     } catch(error) {
         yield put(actions.getTimeLineFail())
     }

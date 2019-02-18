@@ -16,6 +16,6 @@ export const getTimeLineFail = (error) => {
 
 export const initialTimeLine = () => {
     return {
-        type: actionTypes.INIT_TIMELINE
+        type: actionTypes.INIT_TIMELINE,
     }
 };

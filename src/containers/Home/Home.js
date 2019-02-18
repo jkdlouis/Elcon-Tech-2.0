@@ -124,7 +124,9 @@ export class Home extends Component {
                             History
                             <span className="main-green">*</span>
                         </h2>
-                        <TimeLine/>
+                        <TimeLine
+                            timeLineData={ this.props.timeLine }
+                        />
                     </div>
                 </div>
                 <div className="certificate">
@@ -149,7 +151,7 @@ export class Home extends Component {
 
 const mapStateToProps = state => {
     return {
-        timeLine: state.timeline
+        timeLine: state.timeLine
     };
 };
 
