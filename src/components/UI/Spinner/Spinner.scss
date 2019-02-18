@@ -1,3 +1,5 @@
+@import '../../../colors';
+
 .loader {
   font-size: 10px;
   margin: 50px auto;
@@ -6,11 +8,11 @@
   height: 11em;
   border-radius: 50%;
   background: #942192;
-  background: -moz-linear-gradient(left, #942192 10%, rgba(148,33,146, 0) 42%);
-  background: -webkit-linear-gradient(left, #942192 10%, rgba(148,33,146, 0) 42%);
-  background: -o-linear-gradient(left, #942192 10%, rgba(148,33,146, 0) 42%);
-  background: -ms-linear-gradient(left, #942192 10%, rgba(148,33,146, 0) 42%);
-  background: linear-gradient(to right, #942192 10%, rgba(148,33,146, 0) 42%);
+  background: -moz-linear-gradient(left, $main-green 10%, rgba(148,33,146, 0) 42%);
+  background: -webkit-linear-gradient(left, $main-green 10%, rgba(148,33,146, 0) 42%);
+  background: -o-linear-gradient(left, $main-green 10%, rgba(148,33,146, 0) 42%);
+  background: -ms-linear-gradient(left, $main-green 10%, rgba(148,33,146, 0) 42%);
+  background: linear-gradient(to right, $main-green 10%, rgba(148,33,146, 0) 42%);
   position: relative;
   -webkit-animation: load3 1.4s infinite linear;
   animation: load3 1.4s infinite linear;
@@ -20,7 +22,7 @@
   &:before {
     width: 50%;
     height: 50%;
-    background: #fff;
+    background: $main-green;
     border-radius: 100% 0 0 0;
     position: absolute;
     top: 0;
