@@ -8,6 +8,6 @@ export function* initialTimeLineSaga(action) {
         const response = yield axios.get(URL.TIMELINE_API);
         yield put(actions.getTimeLine(response.data.data));
     } catch(error) {
-        yield put(actions.getTimeLineFail())
+        yield put(actions.getTimeLineFail(error))
     }
 }

@@ -1,5 +1,11 @@
 import * as actionTypes from './actionTypes';
 
+export const initialTimeLine = () => {
+    return {
+        type: actionTypes.INIT_TIMELINE,
+    }
+};
+
 export const getTimeLine = (timeLine) => {
     return {
         type: actionTypes.GET_TIMELINE,
@@ -14,8 +20,3 @@ export const getTimeLineFail = (error) => {
     }
 };
 
-export const initialTimeLine = () => {
-    return {
-        type: actionTypes.INIT_TIMELINE,
-    }
-};

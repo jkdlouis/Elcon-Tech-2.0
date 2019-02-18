@@ -1,0 +1,66 @@
+@import '../../../colors';
+
+.product-category {
+  padding: 3rem;
+  background-color: $light-gray;
+  h3{
+    font-size: 2em;
+  }
+  .product {
+    margin: 20px 10px;
+    height: 300px;
+  }
+  .background {
+    -webkit-background-size: 100%;
+    background-size: 100% !important;
+    height: 100%;
+    position: relative;
+    border: 1px solid #ddd;
+  }
+  .solid-chip {
+    background: url("../../../assets/images/products/solid-chip-type/solid-chip.png") no-repeat center white;
+  }
+  .solid-lead {
+    background: url("../../../assets/images/products/solid-lead-type/solid-lead.png") no-repeat center white;
+  }
+  .chip-type {
+    background: url("../../../assets/images/products/chip-type/chip.png") no-repeat center white;
+  }
+  .miniature {
+    background: url("../../../assets/images/products/miniature/miniature.png") no-repeat center white;
+  }
+  .high-rip {
+    background: url("../../../assets/images/products/high-rip/high-rip.png") no-repeat center white;
+  }
+  .snap-in {
+    background: url("../../../assets/images/products/snap-in-terminal/snap-in.png") no-repeat center white;
+  }
+  .special-app {
+    background: url("../../../assets/images/products/special-app/special-app.png") no-repeat center white;
+  }
+  h3 {
+    padding: 10px;
+  }
+}
+
+.product-category h3.title {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 50px;
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: -21px;
+  padding: 15px 0;
+}
+
+//individual product category page
+.all-product-header {
+  background-color: $dark-gray;
+  height: auto;
+  padding: 30px;
+
+  h1 {
+    color: white;
+    font-size: 3em;
+  }
+}
