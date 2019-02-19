@@ -27,7 +27,7 @@ export class Product extends Component {
                         <h2>Aluminum Electrolytic Capacitors Finder</h2>
                         <h4>Our ecosystem helps you reach to your product easier!</h4>
                         <Button
-                         link="/product/product-finder"
+                         link="/product/product-detail"
                          btnClass="btn-learn"
                          btnText="SEARCH NOW">
                             <i className="fa fa-arrow-circle-o-right" aria-hidden="true"></i>

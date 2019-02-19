@@ -1,10 +1,9 @@
 @import '../../../colors';
 
 .product-category {
-  padding: 3rem;
   background-color: $light-gray;
   h3{
-    font-size: 2em;
+    font-size: 2rem;
   }
   .product {
     margin: 20px 10px;
@@ -14,7 +13,6 @@
     -webkit-background-size: 100%;
     background-size: 100% !important;
     height: 100%;
-    position: relative;
     border: 1px solid #ddd;
   }
   .solid-chip {
@@ -45,12 +43,11 @@
 
 .product-category h3.title {
   background-color: rgba(0, 0, 0, 0.6);
-  height: 50px;
   width: 100%;
   color: white;
   position: absolute;
-  top: -21px;
-  padding: 15px 0;
+  top: 0;
+  font-size: 1.3rem;
 }
 
 //individual product category page
@@ -64,3 +61,11 @@
     font-size: 3em;
   }
 }
+
+//@media screen and (max-width: 767px) {
+//  .product-category {
+//    h3 {
+//      font-size: 1.3rem;
+//    }
+//  }
+//}

@@ -9,3 +9,9 @@ export {
     getProductCategoryList,
     getProductCategoryListFail
 } from './productCategory'
+
+export {
+    initialProductDetailList,
+    getProductDetailList,
+    getProductDetailListFail
+} from './productDetail';

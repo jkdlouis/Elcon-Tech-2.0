@@ -4,6 +4,7 @@ import Home from './containers/Home/Home';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Product from './containers/Product/Product';
+import ProductDetail from './containers/Product/ProductDetail/ProductDetail';
 import Facility from './components/Facility/Facility';
 import Contact from './containers/Contact/Contact';
 import './index.scss';
@@ -15,6 +16,7 @@ class App extends Component {
             <Switch>
                 <Route path="/" exact component={ Home }/>
                 <Route path="/product" exact component={ Product }/>
+                <Route path="/product/product-detail" exact component={ ProductDetail }/>
                 <Route path="/facility" exact component={ Facility }/>
                 <Route path="/contact" exact component={ Contact }/>
                 <Redirect to="/"/>

@@ -18,12 +18,14 @@ h1, h2 {
   color: $dark-gray;
   letter-spacing: 3px;
 }
+
 h3, h4 {
   letter-spacing: 2px;
 }
 
 a:hover, a:focus {
   cursor: pointer;
+  text-decoration: none;
 }
 
 .active {

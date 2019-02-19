@@ -8,6 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
 import timeLineReducer from './store/reducers/timeline';
 import productCategoryReducer from "./store/reducers/productCategory";
+import productDetailReducer from "./store/reducers/productDetail";
 import { watchTimeLine, watchProduct } from "./store/sagas";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/scss/font-awesome.scss';
@@ -17,7 +18,8 @@ const composeEnhancers = process.env.NODE_ENV === 'development' ? window.__REDUX
 
 const rootReducer = combineReducers({
     timeLine: timeLineReducer,
-    productCategoryList: productCategoryReducer
+    productCategoryList: productCategoryReducer,
+    productDetailList: productDetailReducer
 });
 
 const sagaMiddleware = createSagaMiddleware();
