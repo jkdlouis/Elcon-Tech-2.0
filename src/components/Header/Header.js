@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Navigation from './Navigation/Navigation';
 import './Header.scss';
-import Logo from '../../assets/images/logos/elcon-logo.png';
+import '../../assets/images/logos/elcon-logo.png';
 
 const header = (props) => {
     return (
@@ -27,7 +27,7 @@ const header = (props) => {
             <div className="row">
                 <div className="col-12 d-flex justify-content-center align-items-center">
                     <a href="/home">
-                        <img src={ Logo }
+                        <img src="/assets/images/logos/elcon-logo.png"
                              className="img-responsive elcon-logo w-100"
                              alt="Elcon Logo"/>
                     </a>
