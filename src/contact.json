@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "type": "factory",
+      "companyTitle": "Elcon Electronics Technology (Shaoguan) Co., Ltd",
+      "phoneNumber": "0751-6830668",
+      "faxNumber": "0751-6830668",
+      "webUrl": "www.elcon-fsd.com",
+      "email": "info@elcon-fsd.com",
+      "address": "No. 1-1, Yingbin Road, Ruyuan Yaozu Autonomous County,Shaoguan, Zip 512000 China"
+    },
+    {
+      "type": "office",
+      "companyTitle": "Elcon Technology Limited",
+      "phoneNumber": "852-69451164",
+      "faxNumber": "852-23331569",
+      "webUrl": "www.elcon.com.tw",
+      "email": "info@elcon-fsd.com",
+      "address": "Unit 901, 9/F, Hunghom Commercial Centre, Tower A, 39 Ma Tau Wei Road, Hunghom, Kln, Hong Kong"
+    },
+    {
+      "type": "office",
+      "companyTitle": "Shenzhen Elcon Technology Limited",
+      "phoneNumber": "0755-29022277",
+      "faxNumber": "0755-29022189",
+      "webUrl": "www.elcon-fsd.com",
+      "email": "info@elcon-fsd.com",
+      "address": "Room 610, Caiyue Building, 24 Liuxian Avenue, Longhua New District, Shenzhen"
+    },
+    {
+      "type": "salesChannel",
+      "companyTitle": "GTC Technologies Corporation",
+      "phoneNumber": "886-2-25147896",
+      "faxNumber": "886-2-25147893",
+      "email": "sales@gtc-tech.com",
+      "address": "Room 610, Caiyue Building, 24 Liuxian Avenue, Longhua New District, Shenzhen"
+    },
+    {
+      "type": "salesChannel",
+      "companyTitle": "Smart Source Engineering Ltd",
+      "phoneNumber": "852-21486648",
+      "faxNumber": "852-21486649",
+      "email": "ricky_kwok@greensmps.com",
+      "address": "Unit 1B,1/F, Shun Fat Industrial Bldg, 17 Wang Hoi Rd, Kowloon Bay,Kowloon, HONG KONG"
+    },
+    {
+      "type": "salesChannel",
+      "companyTitle": "Shenzhen Smart Success Technology Ltd",
+      "phoneNumber": "0755-82130644",
+      "faxNumber": "0755-82133370",
+      "email": "ricky_kwok@greensmps.com",
+      "address": "URm.801-2,8/F,LiJing Bldg., No.1008 HongLing Centre Rd.,Luohu District,ShenZhen China"
+    },
+    {
+      "type": "salesChannel",
+      "companyTitle": "Shenzhen Uni-Power Technology Co. Ltd.",
+      "phoneNumber": "0755-29022277",
+      "faxNumber": "0755-29022189",
+      "email": "yy@uni-powercn.com",
+      "address": "Unit 601, 6/F, Cai Yue Building, No.24, Liuxian da dao, Longhua District, Shenzhen, China"
+    }
+  ]
+}
