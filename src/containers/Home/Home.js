@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import Carousel from 'react-bootstrap/Carousel';
-import Certificate from '../../assets/images/backgrounds/certificates.jpg';
 import slideOne from '../../assets/images/carousel/home_ribbon.jpg';
 import slideTwo from '../../assets/images/carousel/component_supply_chain.jpg';
 import slideThree from '../../assets/images/carousel/customer_relationship.jpg';
@@ -139,7 +138,7 @@ export class Home extends Component {
                             </h3>
                             <h4>We Are a Certified Supplier Of Aluminum Electrolytic Capacitors</h4>
                             <img className="img-responsive w-100"
-                                 src={Certificate}
+                                 src="assets/images/backgrounds/certificates.jpg"
                                  alt="Elcon Business Certificate"/>
                         </div>
                     </div>

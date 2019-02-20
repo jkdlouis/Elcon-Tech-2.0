@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import Navigation from './Navigation/Navigation';
 import './Header.scss';
-import '../../assets/images/logos/elcon-logo.png';
 
 const header = (props) => {
     return (

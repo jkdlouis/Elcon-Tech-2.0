@@ -16,7 +16,7 @@ export class ProductDetail extends Component {
         if (this.props.productDetailList && this.props.productDetailList.data.length) {
             productList = this.props.productDetailList.data.map((product) => {
                     return (<div className="col-sm-3 col-md-4 thumbnail">
-                        {/*<img src={ require(`${product.image}`) } alt={ product.alt }/>*/}
+                        <img src="../../../assets/images/products/chip-type/ch.png" alt={ product.alt }/>
                         <div className="caption">
                             <ul className="list-unstyled">
                                 <li>Series: { product.series }</li>
