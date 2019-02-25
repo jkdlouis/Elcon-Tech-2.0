@@ -15,3 +15,9 @@ export {
     getProductDetailList,
     getProductDetailListFail
 } from './productDetail';
+
+export {
+   initialFacilityGalleries,
+   getFacilityGalleries,
+   getFacilityGalleriesFail
+} from './facility';
