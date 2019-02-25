@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "category": "Solid Chip Type",
+      "url": "/product/solid-chip",
+      "backgroundClass": "solid-chip"
+    },
+    {
+      "category": "Solid Lead Type",
+      "url": "/product/solid-lead",
+      "backgroundClass": "solid-lead"
+    },
+    {
+      "category": "Chip Type Series",
+      "url": "/product/chip-type",
+      "backgroundClass": "chip-type"
+    },
+    {
+      "category": "Miniature Series",
+      "url": "/product/miniature",
+      "backgroundClass": "miniature"
+    },
+    {
+      "category": "High Ripple Low ESR Series",
+      "url": "/product/high-rip",
+      "backgroundClass": "high-rip"
+    },
+    {
+      "category": "Snap-in Terminal Series",
+      "url": "/product/snap-in",
+      "backgroundClass": "snap-in"
+    },
+    {
+      "category": "Special Application Series",
+      "url": "/product/special-app",
+      "backgroundClass": "special-app"
+    }
+  ]
+}

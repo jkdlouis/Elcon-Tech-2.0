@@ -2,153 +2,160 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f44beb3-2d7b-4c06-9613-5cf030bc8db3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/backgrounds/certificates.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/backgrounds/factory-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/backgrounds/footer-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/backgrounds/join-the-team-dark.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/backgrounds/product-cover-dark.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/backgrounds/product-cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/carousel/cloud_computing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/carousel/component_supply_chain.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/carousel/customer_relationship.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/carousel/home_ribbon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/factory/factory-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/factory/factory-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/factory/factory-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/factory/factory-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/factory/factory-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/factory/factory-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/factory/factory-15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/factory/factory-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/factory/factory-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/factory/factory-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/factory/factory-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/factory/factory-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/factory/factory-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logos/elcon-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logos/elcon-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logos/elcon-logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/chip-type/ch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/chip-type/chip.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/chip-type/chip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/chip-type/ck.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/chip-type/el.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/chip-type/fz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/chip-type/hu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/chip-type/kh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/chip-type/kl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/chip-type/kp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/chip-type/kz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/chip-type/lz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/chip-type/sc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/high-rip/eb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/high-rip/high-rip.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/high-rip/high-rip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/high-rip/lf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/high-rip/lh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/high-rip/lr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/high-rip/xf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/high-rip/ya.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/high-rip/zl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/miniature/eg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/miniature/gc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/miniature/hg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/miniature/la.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/miniature/miniature.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/miniature/miniature.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/miniature/sg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/miniature/sk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/miniature/sl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/miniature/tp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/miniature/uh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/snap-in-terminal/gs-gh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/snap-in-terminal/km.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/snap-in-terminal/mp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/snap-in-terminal/mq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/snap-in-terminal/mz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/snap-in-terminal/snap-in.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/snap-in-terminal/snap-in.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-chip-type/ma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-chip-type/mb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-chip-type/mr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-chip-type/ms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-chip-type/mv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-chip-type/mx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-chip-type/solid-chip.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-chip-type/solid-chip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-lead-type/pa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-lead-type/pb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-lead-type/pr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-lead-type/ps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-lead-type/pv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-lead-type/px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-lead-type/sc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-lead-type/solid-lead.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/solid-lead-type/solid-lead.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/special-app/eh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/special-app/mh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/special-app/special-app.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/special-app/special-app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/products/special-app/xh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/chip-type/CH.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/chip-type/CK.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/chip-type/EL.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/chip-type/FZ.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/chip-type/HU.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/chip-type/KH.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/chip-type/KL.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/chip-type/KP.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/chip-type/KZ.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/chip-type/LZ.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/chip-type/SC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/chip-type/_DS_Store" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/high-rip/101-102-103-LH.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/high-rip/107-108-ZL.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/high-rip/111-112-LF.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/high-rip/117-118-119-YA.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/high-rip/124-125-126-EB.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/high-rip/127-128-129-XF.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/high-rip/95-96-97-LR.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/miniature/43-44-UH.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/miniature/49-50-TP.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/miniature/57-58-LA.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/miniature/65-66-SK.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/miniature/69-70-SL.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/miniature/73-74-SG.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/miniature/81-82-HG.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/miniature/83-84-EG.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/miniature/85-86-GC.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/snap-in-terminal/130-131-132-133-GS-GH.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/snap-in-terminal/138-139-140-MP.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/snap-in-terminal/149-150-KM.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/snap-in-terminal/156-157-158-MQ.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/snap-in-terminal/ma-mz.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-chip-type/ma.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-chip-type/mb.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-chip-type/mr.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-chip-type/ms.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-chip-type/mv.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-chip-type/mx.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-lead-type/pa.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-lead-type/pb-2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-lead-type/pb.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-lead-type/pr-2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-lead-type/pr.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-lead-type/ps.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-lead-type/pv.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-lead-type/px.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/special-app/159-160-EH.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/special-app/161-162-163-XH.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/product-pdf/special-app/168-169-MH.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/backgrounds/certificates.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/backgrounds/factory-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/backgrounds/footer-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/backgrounds/join-the-team-dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/backgrounds/product-cover-dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/backgrounds/product-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/carousel/cloud_computing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/carousel/component_supply_chain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/carousel/customer_relationship.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/carousel/home_ribbon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/factory/factory-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/factory/factory-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/factory/factory-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/factory/factory-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/factory/factory-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/factory/factory-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/factory/factory-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/factory/factory-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/factory/factory-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/factory/factory-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/factory/factory-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/factory/factory-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/factory/factory-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/logos/elcon-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/logos/elcon-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/logos/elcon-logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/chip-type/ch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/chip-type/chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/chip-type/chip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/chip-type/ck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/chip-type/el.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/chip-type/fz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/chip-type/hu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/chip-type/kh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/chip-type/kl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/chip-type/kp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/chip-type/kz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/chip-type/lz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/chip-type/sc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/high-rip/eb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/high-rip/high-rip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/high-rip/high-rip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/high-rip/lf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/high-rip/lh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/high-rip/lr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/high-rip/xf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/high-rip/ya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/high-rip/zl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/miniature/eg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/miniature/gc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/miniature/hg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/miniature/la.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/miniature/miniature.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/miniature/miniature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/miniature/sg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/miniature/sk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/miniature/sl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/miniature/tp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/miniature/uh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/snap-in-terminal/gs-gh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/snap-in-terminal/km.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/snap-in-terminal/mp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/snap-in-terminal/mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/snap-in-terminal/mz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/snap-in-terminal/snap-in.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/snap-in-terminal/snap-in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-chip-type/ma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-chip-type/mb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-chip-type/mr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-chip-type/ms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-chip-type/mv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-chip-type/mx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-chip-type/solid-chip.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-chip-type/solid-chip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-lead-type/pa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-lead-type/pb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-lead-type/pr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-lead-type/ps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-lead-type/pv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-lead-type/px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-lead-type/sc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-lead-type/solid-lead.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/solid-lead-type/solid-lead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/special-app/eh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/special-app/mh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/special-app/special-app.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/special-app/special-app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/products/special-app/xh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/chip-type/CH.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/chip-type/CK.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/chip-type/EL.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/chip-type/FZ.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/chip-type/HU.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/chip-type/KH.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/chip-type/KL.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/chip-type/KP.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/chip-type/KZ.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/chip-type/LZ.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/chip-type/SC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/chip-type/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/high-rip/101-102-103-LH.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/high-rip/107-108-ZL.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/high-rip/111-112-LF.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/high-rip/117-118-119-YA.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/high-rip/124-125-126-EB.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/high-rip/127-128-129-XF.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/high-rip/95-96-97-LR.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/miniature/43-44-UH.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/miniature/49-50-TP.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/miniature/57-58-LA.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/miniature/65-66-SK.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/miniature/69-70-SL.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/miniature/73-74-SG.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/miniature/81-82-HG.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/miniature/83-84-EG.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/miniature/85-86-GC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/snap-in-terminal/130-131-132-133-GS-GH.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/snap-in-terminal/138-139-140-MP.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/snap-in-terminal/149-150-KM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/snap-in-terminal/156-157-158-MQ.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/snap-in-terminal/ma-mz.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/solid-chip-type/ma.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/solid-chip-type/mb.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/solid-chip-type/mr.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/solid-chip-type/ms.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/solid-chip-type/mv.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/solid-chip-type/mx.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/solid-lead-type/pa.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/solid-lead-type/pb-2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/solid-lead-type/pb.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/solid-lead-type/pr-2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/solid-lead-type/pr.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/solid-lead-type/ps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/solid-lead-type/pv.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/solid-lead-type/px.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/special-app/159-160-EH.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/special-app/161-162-163-XH.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/product-pdf/special-app/168-169-MH.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/db/facility.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/db/product-category.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/product.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/productDetail.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/db/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Banner/Banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Banner/Banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Product/Product-Category/Product-Category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Product/Product-Category/Product-Category.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductFinder/ProductFinder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductFinder/ProductFinder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductFinder/ProductFinder.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductFinder/ProductFinder.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -162,14 +169,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Header.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
+      <file leaf-file-name="ProductDetail.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="730">
+              <caret line="77" column="50" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Navigation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Header/Navigation/Navigation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductFinder.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductFinder/ProductFinder.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -187,8 +215,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>{}</find>
-      <find>col-xs-12</find>
       <find>.date</find>
       <find>avatar</find>
       <find>-270</find>
@@ -217,6 +243,8 @@
       <find>bundle.js</find>
       <find>outputPa</find>
       <find>plugins:</find>
+      <find>../../..</find>
+      <find>load</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -229,11 +257,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Footer/Footer.js" />
-        <option value="$PROJECT_DIR$/src/shared/utility.js" />
-        <option value="$PROJECT_DIR$/src/assets/constants.js" />
-        <option value="$PROJECT_DIR$/src/components/Header/Header.scss" />
-        <option value="$PROJECT_DIR$/src/components/Home/Home.scss" />
         <option value="$PROJECT_DIR$/src/components/UI/CalloutPanel/CalloutPanel.scss" />
         <option value="$PROJECT_DIR$/src/components/UI/Timeline/TImeline.scss" />
         <option value="$PROJECT_DIR$/src/store/actions/product.js" />
@@ -242,13 +265,11 @@
         <option value="$PROJECT_DIR$/src/components/Header/Navigation/Navigation.scss" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/store/reducers/timeline.js" />
-        <option value="$PROJECT_DIR$/src/containers/Home/Home.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Spinner/Spinner.js" />
         <option value="$PROJECT_DIR$/src/timeline.json" />
         <option value="$PROJECT_DIR$/src/components/UI/Spinner/Spinner.scss" />
         <option value="$PROJECT_DIR$/src/components/UI/Timeline/Timeline.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Banner/Banner.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/Banner/Banner.scss" />
         <option value="$PROJECT_DIR$/src/containers/Product/ProductFinder/ProductFinder.scss" />
         <option value="$PROJECT_DIR$/src/containers/Product/ProductFinder/ProductFinder.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Button/Button.js" />
@@ -262,7 +283,6 @@
         <option value="$PROJECT_DIR$/src/components/Header/Navigation/Navigation.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Button/Button.scss" />
         <option value="$PROJECT_DIR$/src/containers/Product/Product-Category/Product-Category.js" />
-        <option value="$PROJECT_DIR$/src/containers/Product/Product-Category/Product-Category.scss" />
         <option value="$PROJECT_DIR$/src/index.scss" />
         <option value="$PROJECT_DIR$/src/containers/Product/Product.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
@@ -274,12 +294,20 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/store/sagas/productDetail.js" />
         <option value="$PROJECT_DIR$/src/constants.js" />
-        <option value="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.scss" />
         <option value="$PROJECT_DIR$/src/product.json" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
+        <option value="$PROJECT_DIR$/src/containers/Home/Home.js" />
+        <option value="$PROJECT_DIR$/src/components/UI/Banner/Banner.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Product/Product-Category/Product-Category.scss" />
+        <option value="$PROJECT_DIR$/src/components/Footer/Footer.scss" />
+        <option value="$PROJECT_DIR$/src/db/product.json" />
+        <option value="$PROJECT_DIR$/src/components/Header/Header.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductFinder/ProductFinder.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductFinder/ProductFinder.js" />
+        <option value="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.js" />
       </list>
     </option>
   </component>
@@ -306,7 +334,6 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="9" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -316,7 +343,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,12 +372,51 @@
               <item name="elcon-tech-2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="elcon-tech-2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
+              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elcon-tech-2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elcon-tech-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elcon-tech-2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elcon-tech-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elcon-tech-2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elcon-tech-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elcon-tech-2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elcon-tech-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductDetail" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductFinder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elcon-tech-2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elcon-tech-2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,6 +434,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/build/assets/images/logos" />
     </key>
@@ -417,6 +483,10 @@
       <workItem from="1550615719724" duration="318000" />
       <workItem from="1550639866948" duration="69000" />
       <workItem from="1550639940052" duration="474000" />
+      <workItem from="1550684907324" duration="8000" />
+      <workItem from="1550961945787" duration="814000" />
+      <workItem from="1551047255799" duration="9856000" />
+      <workItem from="1551061335550" duration="4554000" />
     </task>
     <task id="LOCAL-00001" summary="Initial set up of react, redux, and folder structure.">
       <created>1549251073241</created>
@@ -572,46 +642,49 @@
       <option name="project" value="LOCAL" />
       <updated>1550640221490</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Moving asset folder to public path">
+      <created>1550645742968</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1550645742968</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fixed image paths">
+      <created>1550646208962</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1550646208962</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83404000" />
+    <option name="totallyTimeSpent" value="99638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22001205" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015069" side_tool="true" weight="0.83548385" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49849308" weight="0.83548385" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.328125" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21338156" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.83548385" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.328125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15009041" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.83548385" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.328125" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,49 +710,11 @@
     <MESSAGE value="Built product category section in product page, hover effect still needs to be built." />
     <MESSAGE value="Built action, reducer, and saga for product detail page." />
     <MESSAGE value="Assets images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assets images" />
+    <MESSAGE value="Moving asset folder to public path" />
+    <MESSAGE value="Fixed image paths" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed image paths" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Spinner/Spinner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Spinner/Spinner.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/backgrounds/product-cover-dark.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Banner/Banner.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductFinder/ProductFinder.js" />
-    <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductFinder/ProductFinder.scss" />
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Banner/Banner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contact.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -691,13 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="4" lean-forward="true" selection-end-line="51" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -739,13 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Navigation/Navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -757,13 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Product/Product-Category/Product-Category.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -806,13 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -878,33 +885,12 @@
     <entry file="file://$PROJECT_DIR$/src/assets/images/products/snap-in-terminal/mq.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="125" column="29" lean-forward="true" selection-start-line="125" selection-start-column="29" selection-end-line="125" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/logo.svg" />
-    <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/manifest.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/product.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="545" column="16" selection-start-line="545" selection-start-column="16" selection-end-line="545" selection-end-column="71" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor">
@@ -916,23 +902,6 @@
     <entry file="file://$PROJECT_DIR$/src/assets/images/products/chip-type/ch.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="115" column="16" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -943,12 +912,142 @@
     <entry file="file://$PROJECT_DIR$/src/assets/images/logos/elcon-logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677">
+          <caret column="14" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Banner/Banner.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Banner/Banner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Product/Product-Category/Product-Category.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/productDetail.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="551" column="28" selection-start-line="551" selection-start-column="28" selection-end-line="551" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="585">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductFinder/ProductFinder.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductFinder/ProductFinder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Navigation/Navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="77" column="50" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>

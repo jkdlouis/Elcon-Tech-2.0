@@ -1,0 +1,39 @@
+@import '../../../../colors';
+
+#product-finder {
+  padding: 30px;
+  background-color: $dark-gray;
+  h1, h4 {
+    color: white;
+  }
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+
+  }
+  .form-control {
+    border-left: 0;
+    border-radius: 0;
+  }
+  .search-input {
+    height: 40px;
+    border-radius: 4px;
+    width: 400px;
+    padding: 10px 30px;
+    margin: 10px auto;
+    box-sizing: border-box;
+  }
+  .input-group-text {
+    color: #495057;
+    background-color: #fff;
+    border-radius: 0;
+    border: 1px solid #ced4da;
+  }
+  .fa.fa-search {
+    color: #495057;
+  }
+}

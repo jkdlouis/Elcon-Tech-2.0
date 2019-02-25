@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-
 import Carousel from 'react-bootstrap/Carousel';
-import slideOne from '../../assets/images/carousel/home_ribbon.jpg';
-import slideTwo from '../../assets/images/carousel/component_supply_chain.jpg';
-import slideThree from '../../assets/images/carousel/customer_relationship.jpg';
 import CallOutPanel from '../../components/UI/CalloutPanel/CalloutPanel';
 import Button from '../../components/UI/Button/Button';
 import TimeLine from '../../components/UI/Timeline/Timeline';
@@ -26,7 +22,7 @@ export class Home extends Component {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src={slideOne}
+                                    src="assets/images/carousel/home_ribbon.jpg"
                                     alt="First slide"
                                 />
                                 <Button link="/#about"
@@ -43,7 +39,7 @@ export class Home extends Component {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src={slideTwo}
+                                    src="assets/images/carousel/component_supply_chain.jpg"
                                     alt="Second slide"
                                 />
                                 <Button link="/product"
@@ -60,7 +56,7 @@ export class Home extends Component {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src={slideThree}
+                                    src="assets/images/carousel/customer_relationship.jpg"
                                     alt="Third slide"
                                 />
                                 <Button className="d-block d-md-none"
