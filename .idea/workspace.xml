@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f44beb3-2d7b-4c06-9613-5cf030bc8db3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductThumbnail/ProductThumbnail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductThumbnail/ProductThumbnail.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductFinder/ProductFinder.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductFinder/ProductFinder.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,31 +20,10 @@
       <file leaf-file-name="ProductDetail.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="44" column="63" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+            <state relative-caret-position="825">
+              <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductThumbnail.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductThumbnail/ProductThumbnail.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductThumbnail.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductThumbnail/ProductThumbnail.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -245,23 +220,6 @@
               <item name="elcon-tech-2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="elcon-tech-2.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Product" type="462c0819:PsiDirectoryNode" />
-              <item name="ProductDetail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elcon-tech-2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elcon-tech-2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Product" type="462c0819:PsiDirectoryNode" />
-              <item name="ProductDetail" type="462c0819:PsiDirectoryNode" />
-              <item name="ProductThumbnail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elcon-tech-2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elcon-tech-2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -338,7 +296,7 @@
       <workItem from="1550684907324" duration="8000" />
       <workItem from="1550961945787" duration="814000" />
       <workItem from="1551047255799" duration="9856000" />
-      <workItem from="1551061335550" duration="7696000" />
+      <workItem from="1551061335550" duration="7917000" />
     </task>
     <task id="LOCAL-00001" summary="Initial set up of react, redux, and folder structure.">
       <created>1549251073241</created>
@@ -543,11 +501,32 @@
       <option name="project" value="LOCAL" />
       <updated>1551066487030</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="built product thumbnail into a reusable UI component">
+      <created>1551073601865</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1551073601865</updated>
+    </task>
+    <task id="LOCAL-00031" summary="built product thumbnail into a reusable UI component">
+      <created>1551073606871</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1551073606871</updated>
+    </task>
+    <task id="LOCAL-00032" summary="built product thumbnail into a reusable UI component">
+      <created>1551073679575</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1551073679575</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102780000" />
+    <option name="totallyTimeSpent" value="103001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -601,7 +580,8 @@
     <MESSAGE value="Fixed image paths" />
     <MESSAGE value="Moving assets to src" />
     <MESSAGE value="Completing product finder section, product list page, and search product feature." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completing product finder section, product list page, and search product feature." />
+    <MESSAGE value="built product thumbnail into a reusable UI component" />
+    <option name="LAST_COMMIT_MESSAGE" value="built product thumbnail into a reusable UI component" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/store/actions/productCategory.js">
@@ -917,6 +897,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductThumbnail/ProductThumbnail.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductThumbnail/ProductThumbnail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -927,17 +914,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductThumbnail/ProductThumbnail.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Product/ProductDetail/ProductDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="44" column="63" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+        <state relative-caret-position="825">
+          <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>

@@ -34,7 +34,7 @@ export class ProductDetail extends Component {
         if (this.props.productDetailList && this.props.productDetailList.data.length) {
             productList = this.props.productDetailList.data.map((product) => {
                 return (
-                    <ProductThumbnail product={product}/>
+                    <ProductThumbnail product={ product }/>
                 )
             })
         }
@@ -42,7 +42,7 @@ export class ProductDetail extends Component {
         if (this.state.filteredProductList.length) {
             productList = this.state.filteredProductList.map((product) => {
                 return (
-                    <ProductThumbnail product={product}/>
+                    <ProductThumbnail product={ product }/>
                 )
             })
         } else {
@@ -53,9 +53,9 @@ export class ProductDetail extends Component {
 
         return (
             <Fragment>
-                <ProductFinder onProductSearch={this.onSearchTextHandler}/>
+                <ProductFinder onProductSearch={ this.onSearchTextHandler }/>
                 <div className="row text-center justify-content-center align-items-center search-results">
-                    {productList}
+                    { productList }
                 </div>
             </Fragment>
         );
