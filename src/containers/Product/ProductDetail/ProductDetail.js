@@ -18,7 +18,7 @@ export class ProductDetail extends Component {
     }
 
     onSearchTextHandler = (value) => {
-       this.setFilteredProductList(value);
+        this.setFilteredProductList(value);
     };
 
     setFilteredProductList = debounce(query => {
@@ -33,17 +33,17 @@ export class ProductDetail extends Component {
 
         if (this.props.productDetailList && this.props.productDetailList.data.length) {
             productList = this.props.productDetailList.data.map((product) => {
-                        return (
-                            <ProductThumbnail product={ product }/>
-                        )
+                return (
+                    <ProductThumbnail product={product}/>
+                )
             })
         }
 
         if (this.state.filteredProductList.length) {
             productList = this.state.filteredProductList.map((product) => {
-                    return (
-                        <ProductThumbnail product={ product }/>
-                    )
+                return (
+                    <ProductThumbnail product={product}/>
+                )
             })
         } else {
             if (this.state.searchInputText) {
@@ -53,9 +53,9 @@ export class ProductDetail extends Component {
 
         return (
             <Fragment>
-                <ProductFinder onProductSearch={ this.onSearchTextHandler }/>
+                <ProductFinder onProductSearch={this.onSearchTextHandler}/>
                 <div className="row text-center justify-content-center align-items-center search-results">
-                    { productList }
+                    {productList}
                 </div>
             </Fragment>
         );
