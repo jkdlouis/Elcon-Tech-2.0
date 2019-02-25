@@ -14,7 +14,7 @@ const footer = (props) => {
                     </p>
                     <p className="phone">Tel：852-69451164 Fax：852-23331569</p>
                     <p className="footer-note">Copyright &copy; 2016 Elcon | All Rights Reserved | Code and Built By <a
-                        href="http://louishuang.info/" target="_blank">Louis Huang</a></p>
+                        href="https://www.linkedin.com/in/louis-huang-a57b7829/" target="_blank">Louis Huang</a></p>
                 </div>
             </div>
             <div className="row d-none d-md-block">
