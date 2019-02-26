@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Route, Switch, withRouter, Redirect } from 'react-router-dom';
-import Home from './containers/Home/Home';
+import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Product from './containers/Product/Product';
-import ProductDetail from './containers/Product/ProductDetail/ProductDetail';
-import Facility from './containers/Facility/Facility';
-import Contact from './containers/Contact/Contact';
+import Product from './components/Product/Product';
+import ProductDetail from './components/Product/ProductDetail/ProductDetail';
+import Facility from './components/Facility/Facility';
+import Contact from './components/Contact/Contact';
 import './index.scss';
 import './App.scss';
 

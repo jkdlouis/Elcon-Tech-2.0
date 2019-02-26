@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Banner from '../../components/UI/Banner/Banner';
-import Spinner from '../../components/UI/Spinner/Spinner';
+import Banner from '../UI/Banner/Banner';
+import Spinner from '../UI/Spinner/Spinner';
 import ImageGallery from 'react-image-gallery';
 import * as actions from '../../store/actions/index';
 import 'react-image-gallery/styles/scss/image-gallery.scss';
