@@ -2,6 +2,7 @@
   "data": [
     {
       "series": "MA",
+      "type": "solid-chip",
       "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
       "partNumber": "EPMA",
       "filePath": "/assets/product-pdf/solid-chip-type/ma.pdf",
@@ -15,6 +16,7 @@
     },
     {
       "series": "MB",
+      "type": "solid-chip",
       "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
       "partNumber": "EPMB",
       "filePath": "/assets/product-pdf/solid-chip-type/mb.pdf",
@@ -28,6 +30,7 @@
     },
     {
       "series": "MR",
+      "type": "solid-chip",
       "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
       "partNumber": "EPMR",
       "filePath": "/assets/product-pdf/solid-chip-type/mr.pdf",
@@ -41,6 +44,7 @@
     },
     {
       "series": "MS",
+      "type": "solid-chip",
       "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
       "partNumber": "EPMS",
       "filePath": "/assets/product-pdf/solid-chip-type/ms.pdf",
@@ -54,6 +58,7 @@
     },
     {
       "series": "MV",
+      "type": "solid-chip",
       "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
       "partNumber": "EPMV",
       "filePath": "/assets/product-pdf/solid-chip-type/mv.pdf",
@@ -67,6 +72,7 @@
     },
     {
       "series": "MX",
+      "type": "solid-chip",
       "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
       "partNumber": "EPMX",
       "filePath": "/assets/product-pdf/solid-chip-type/mx.pdf",
@@ -80,6 +86,7 @@
     },
     {
       "series": "PA",
+      "type": "solid-lead",
       "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
       "partNumber": "EPPA",
       "filePath": "/assets/product-pdf/solid-lead-type/pa.pdf",
@@ -93,6 +100,7 @@
     },
     {
       "series": "PB",
+      "type": "solid-lead",
       "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
       "partNumber": "EPPB",
       "filePath": "/assets/product-pdf/solid-lead-type/pb.pdf",
@@ -106,6 +114,7 @@
     },
     {
       "series": "PR",
+      "type": "solid-lead",
       "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
       "partNumber": "EPPR",
       "filePath": "/assets/product-pdf/solid-lead-type/pr.pdf",
@@ -119,6 +128,7 @@
     },
     {
       "series": "PS",
+      "type": "solid-lead",
       "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
       "partNumber": "EPPS",
       "filePath": "/assets/product-pdf/solid-lead-type/ps.pdf",
@@ -132,6 +142,7 @@
     },
     {
       "series": "PV",
+      "type": "solid-lead",
       "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
       "partNumber": "EPPV",
       "filePath": "/assets/product-pdf/solid-lead-type/pv.pdf",
@@ -145,6 +156,7 @@
     },
     {
       "series": "PX",
+      "type": "solid-lead",
       "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
       "partNumber": "EPPX",
       "filePath": "/assets/product-pdf/solid-lead-type/px.pdf",
@@ -158,6 +170,7 @@
     },
     {
       "series": "CH",
+      "type": "chip-type",
       "name": "Surface Mount Aluminum Electrolytic Capacitors",
       "partNumber": "",
       "filePath": "/assets/product-pdf/chip-type/CH.pdf",
@@ -171,6 +184,7 @@
     },
     {
       "series": "CK",
+      "type": "chip-type",
       "name": "Surface Mount Aluminum Electrolytic Capacitors",
       "partNumber": "",
       "filePath": "/assets/product-pdf/chip-type/CK.pdf",
@@ -184,6 +198,7 @@
     },
     {
       "series": "EL",
+      "type": "chip-type",
       "name": "Surface Mount Aluminum Electrolytic Capacitors",
       "partNumber": "",
       "filePath": "/assets/product-pdf/chip-type/EL.pdf",
@@ -197,6 +212,7 @@
     },
     {
       "series": "FZ",
+      "type": "chip-type",
       "name": "Surface Mount Aluminum Electrolytic Capacitors",
       "partNumber": "",
       "filePath": "/assets/product-pdf/chip-type/FZ.pdf",
@@ -210,6 +226,7 @@
     },
     {
       "series": "HU",
+      "type": "chip-type",
       "name": "Surface Mount Aluminum Electrolytic Capacitors",
       "partNumber": "",
       "filePath": "/assets/product-pdf/chip-type/HU.pdf",
@@ -223,6 +240,7 @@
     },
     {
       "series": "KH",
+      "type": "chip-type",
       "name": "Surface Mount Aluminum Electrolytic Capacitors",
       "partNumber": "",
       "filePath": "/assets/product-pdf/chip-type/KH.pdf",
@@ -236,6 +254,7 @@
     },
     {
       "series": "KL",
+      "type": "chip-type",
       "name": "Surface Mount Aluminum Electrolytic Capacitors",
       "partNumber": "",
       "filePath": "/assets/product-pdf/chip-type/KL.pdf",
@@ -249,6 +268,7 @@
     },
     {
       "series": "KP",
+      "type": "chip-type",
       "name": "Surface Mount Aluminum Electrolytic Capacitors",
       "partNumber": "",
       "filePath": "/assets/product-pdf/chip-type/KP.pdf",
@@ -262,6 +282,7 @@
     },
     {
       "series": "KZ",
+      "type": "chip-type",
       "name": "Surface Mount Aluminum Electrolytic Capacitors",
       "partNumber": "",
       "filePath": "/assets/product-pdf/chip-type/KZ.pdf",
@@ -275,6 +296,7 @@
     },
     {
       "series": "LZ",
+      "type": "chip-type",
       "name": "Surface Mount Aluminum Electrolytic Capacitors",
       "partNumber": "",
       "filePath": "/assets/product-pdf/chip-type/LZ.pdf",
@@ -288,6 +310,7 @@
     },
     {
       "series": "SC",
+      "type": "chip-type",
       "name": "Surface Mount Aluminum Electrolytic Capacitors",
       "partNumber": "",
       "filePath": "/assets/product-pdf/chip-type/SC.pdf",
@@ -301,6 +324,7 @@
     },
     {
       "series": "UH",
+      "type": "miniature",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/miniature/43-44-UH.pdf",
       "image": "/assets/images/products/miniature/uh.png",
@@ -313,6 +337,7 @@
     },
     {
       "series": "TP",
+      "type": "miniature",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/miniature/49-50-TP.pdf",
       "image": "/assets/images/products/miniature/tp.png",
@@ -325,6 +350,7 @@
     },
     {
       "series": "LA",
+      "type": "miniature",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/miniature/57-58-LA.pdf",
       "image": "/assets/images/products/miniature/la.png",
@@ -337,6 +363,7 @@
     },
     {
       "series": "SK",
+      "type": "miniature",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/miniature/65-66-SK.pdf",
       "image": "/assets/images/products/miniature/sk.png",
@@ -349,6 +376,7 @@
     },
     {
       "series": "SL",
+      "type": "miniature",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/miniature/69-70-SL.pdf",
       "image": "/assets/images/products/miniature/sl.png",
@@ -361,6 +389,7 @@
     },
     {
       "series": "SG",
+      "type": "miniature",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/miniature/73-74-SG.pdf",
       "image": "/assets/images/products/miniature/sg.png",
@@ -373,6 +402,7 @@
     },
     {
       "series": "HG",
+      "type": "miniature",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/miniature/81-82-HG.pdf",
       "image": "/assets/images/products/miniature/hg.png",
@@ -385,6 +415,7 @@
     },
     {
       "series": "EG",
+      "type": "miniature",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/miniature/83-84-EG.pdf",
       "image": "/assets/images/products/miniature/eg.png",
@@ -397,6 +428,7 @@
     },
     {
       "series": "GC",
+      "type": "miniature",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/miniature/85-86-GC.pdf",
       "image": "/assets/images/products/miniature/gc.png",
@@ -409,6 +441,7 @@
     },
     {
       "series": "LR",
+      "type": "high-rip",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/high-rip/95-96-97-LR.pdf",
       "image": "/assets/images/products/high-rip/lr.png",
@@ -421,6 +454,7 @@
     },
     {
       "series": "LH",
+      "type": "high-rip",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/high-rip/101-102-103-LH.pdf",
       "image": "/assets/images/products/high-rip/lh.png",
@@ -433,6 +467,7 @@
     },
     {
       "series": "ZL",
+      "type": "high-rip",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/high-rip/107-108-ZL.pdf",
       "image": "/assets/images/products/high-rip/zl.png",
@@ -445,6 +480,7 @@
     },
     {
       "series": "LF",
+      "type": "high-rip",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/high-rip/111-112-LF.pdf",
       "image": "/assets/images/products/high-rip/lf.png",
@@ -457,6 +493,7 @@
     },
     {
       "series": "YA",
+      "type": "high-rip",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/high-rip/117-118-119-YA.pdf",
       "image": "/assets/images/products/high-rip/ya.png",
@@ -469,6 +506,7 @@
     },
     {
       "series": "EB",
+      "type": "high-rip",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/high-rip/124-125-126-EB.pdf",
       "image": "/assets/images/products/high-rip/eb.png",
@@ -481,6 +519,7 @@
     },
     {
       "series": "XF",
+      "type": "high-rip",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/high-rip/127-128-129-XF.pdf",
       "image": "/assets/images/products/high-rip/xf.png",
@@ -493,6 +532,7 @@
     },
     {
       "series": "GS GH",
+      "type": "snap-in-terminal",
       "name": "Snap-in Terminal Type Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/snap-in-terminal/130-131-132-133-GS-GH.pdf",
       "image": "/assets/images/products/snap-in-terminal/gs-gh.png",
@@ -505,6 +545,7 @@
     },
     {
       "series": "MP",
+      "type": "snap-in-terminal",
       "name": "Snap-in Terminal Type Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/snap-in-terminal/138-139-140-MP.pdf",
       "image": "/assets/images/products/snap-in-terminal/mp.png",
@@ -517,6 +558,7 @@
     },
     {
       "series": "MZ",
+      "type": "snap-in-terminal",
       "name": "Snap-in Terminal Type Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/snap-in-terminal/ma-mz.pdf",
       "image": "/assets/images/products/snap-in-terminal/mz.png",
@@ -529,6 +571,7 @@
     },
     {
       "series": "KM",
+      "type": "snap-in-terminal",
       "name": "Snap-in Terminal Type Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/snap-in-terminal/149-150-KM.pdf",
       "image": "/assets/images/products/snap-in-terminal/km.png",
@@ -541,6 +584,7 @@
     },
     {
       "series": "MQ",
+      "type": "snap-in-terminal",
       "name": "Snap-in Terminal Type Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/snap-in-terminal/156-157-158-MQ.pdf",
       "image": "/assets/images/products/snap-in-terminal/mq.png",
@@ -553,6 +597,7 @@
     },
     {
       "series": "EH",
+      "type": "special-app",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/special-app/159-160-EH.pdf",
       "image": "/assets/images/products/special-app/eh.png",
@@ -565,6 +610,7 @@
     },
     {
       "series": "XH",
+      "type": "special-app",
       "name": "Radial Lead Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/special-app/161-162-163-XH.pdf",
       "image": "/assets/images/products/special-app/xh.png",
@@ -577,6 +623,7 @@
     },
     {
       "series": "MH",
+      "type": "special-app",
       "name": "Screw Terminal Type Aluminum Electrolytic Capacitors",
       "filePath": "/assets/product-pdf/special-app/168-169-MH.pdf",
       "image": "/assets/images/products/special-app/mh.png",

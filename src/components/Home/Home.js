@@ -7,7 +7,7 @@ import TimeLine from '../UI/Timeline/Timeline';
 import * as actions from '../../store/actions/index';
 import './Home.scss';
 
-export const home = (props) => {
+const home = (props) => {
 
     useEffect(() => {
         props.onInitTimeLine();

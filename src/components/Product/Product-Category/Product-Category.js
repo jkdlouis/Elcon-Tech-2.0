@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Spinner from '../../UI/Spinner/Spinner';
 import './Product-Category.scss';
 
-export const productCategory = (props) => {
+const productCategory = (props) => {
 
     const [ hoveredState, setHoveredState ] = useState({ isHovered: {} });
 
@@ -23,7 +23,7 @@ export const productCategory = (props) => {
 
     if (props.productCategoryList && props.productCategoryList.data.length) {
         productCategoryList = props.productCategoryList.data.map((data, index) => (
-            <div className="col-12 col-md-4" key={`data.category-${index}`}
+            <div className="col-12 col-md-4" key={`${data.category}-${index}`}
                  onMouseEnter={() => onMouseEnterHandler(index)}
                  onMouseLeave={() => onMouseLeaveHandler(index)}
             >

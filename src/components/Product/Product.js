@@ -6,10 +6,11 @@ import ProductCategory from './Product-Category/Product-Category';
 import * as actions from '../../store/actions/index';
 import './Product.scss';
 
-export const product = (props) => {
+const product = (props) => {
 
     useEffect(() => {
         props.onInitProductCategory()
+        console.log(13)
     }, []);
 
     return (
@@ -25,16 +26,14 @@ export const product = (props) => {
                     <h2>Aluminum Electrolytic Capacitors Finder</h2>
                     <h4>Our ecosystem helps you reach to your product easier!</h4>
                     <Button
-                        link="/product/product-detail"
+                        link="/product/all"
                         btnClass="btn-learn"
                         btnText="SEARCH NOW">
                         <i className="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
                     </Button>
                 </div>
             </div>
-
             <ProductCategory productCategoryList={props.productCategoryList}/>
-
         </div>
     );
 };

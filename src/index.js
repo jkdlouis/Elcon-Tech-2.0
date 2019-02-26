@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
 import timeLineReducer from './store/reducers/timeline';
 import productCategoryReducer from "./store/reducers/productCategory";
-import productDetailReducer from "./store/reducers/productDetail";
+import productDetailReducer from "./store/reducers/productList";
 import facilityReducer from "./store/reducers/facility";
 import { watchTimeLine, watchProduct, watchFacility } from "./store/sagas";
 import 'bootstrap/dist/css/bootstrap.min.css';

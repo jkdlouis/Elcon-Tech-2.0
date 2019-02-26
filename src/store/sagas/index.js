@@ -1,7 +1,7 @@
 import { takeEvery } from 'redux-saga/effects';
 import { initialTimeLineSaga } from "./timeline";
 import { initialProductCategorySaga } from './productCategory';
-import { initialProductDetailSaga } from "./productDetail";
+import { initialProductDetailSaga } from "./productList";
 import { initialFacilityGallerySaga } from "./facility";
 import * as actionTypes from '../actions/actionTypes';
 

@@ -5,9 +5,9 @@ import Spinner from '../../UI/Spinner/Spinner';
 import ProductFinder from './ProductFinder/ProductFinder';
 import ProductThumbnail from './ProductThumbnail/ProductThumbnail';
 import * as actions from '../../../store/actions/index';
-import './ProductDetail.scss';
+import './ProductList.scss';
 
-export const productDetail = (props) => {
+const productList = (props) => {
     const [ searchInputText, setSearchInputText ] = useState('');
     const [ filteredProductList, setFilteredProductList ] = useState([]);
 
@@ -15,29 +15,39 @@ export const productDetail = (props) => {
         props.onInitProductList();
     }, []);
 
+    useEffect(() => {
+        if (props.match.params.type) {
+            filterProductListByParams();
+        }
+    }, [filteredProductList]);
+
     const onSearchTextHandler = (value) => {
-        filteredProductListHandler(value);
+        filterProductListBySearchText(value);
     };
 
-    const filteredProductListHandler = debounce(query => {
+    const filterProductListBySearchText = debounce(query => {
         setSearchInputText(query);
         setFilteredProductList(props.productDetailList.data.filter(product => product.series.toLowerCase().includes(query)));
     }, 500);
 
+    const filterProductListByParams = () => {
+        setFilteredProductList(props.productDetailList.data.filter(product => product.type.toLowerCase().includes(props.match.params.type.toLowerCase())));
+    };
+
         let productList = <Spinner/>;
 
         if (props.productDetailList && props.productDetailList.data.length) {
-            productList = props.productDetailList.data.map((product) => {
+            productList = props.productDetailList.data.map((product, index) => {
                 return (
-                    <ProductThumbnail key={ product.series } product={ product }/>
+                    <ProductThumbnail key={ `${product.series}-${index}` } product={ product }/>
                 )
             })
         }
 
-        if (filteredProductList.length) {
-            productList = filteredProductList.map((product, ) => {
+    if (filteredProductList.length) {
+            productList = filteredProductList.map((product, index) => {
                 return (
-                    <ProductThumbnail key={ product.series } product={ product }/>
+                    <ProductThumbnail key={ `${product.series}-${index}` } product={ product }/>
                 )
             })
         } else {
@@ -48,7 +58,7 @@ export const productDetail = (props) => {
 
         return (
             <Fragment>
-                <ProductFinder onProductSearch={ onSearchTextHandler }/>
+                { props.match.params.type ? null : <ProductFinder onProductSearch={ onSearchTextHandler }/> }
                 <div className="row text-center justify-content-center align-items-center search-results">
                     { productList }
                 </div>
@@ -68,4 +78,4 @@ const mapDispatchToProps = dispatch => {
     }
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(productDetail);
+export default connect(mapStateToProps, mapDispatchToProps)(productList);

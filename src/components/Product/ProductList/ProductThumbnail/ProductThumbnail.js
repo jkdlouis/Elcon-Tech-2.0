@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProductThumbnail.scss';
 
-export const productThumbnail = (props) => {
+const productThumbnail = (props) => {
     return (
         <div className="col-12 col-md-6 col-lg-3 thumbnail" key={props.product.series}>
             <img src={props.product.image} alt={props.product.alt}/>

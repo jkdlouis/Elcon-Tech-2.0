@@ -2,7 +2,7 @@ import React from 'react';
 import { InputGroup, FormControl } from 'react-bootstrap';
 import './ProductFinder.scss';
 
-export const productFinder = (props) => {
+const productFinder = (props) => {
     return (
         <div className="row text-center justify-content-center align-items-center" id="product-finder">
             <div className="col-12">

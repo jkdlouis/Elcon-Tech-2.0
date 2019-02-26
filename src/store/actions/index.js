@@ -14,7 +14,7 @@ export {
     initialProductDetailList,
     getProductDetailList,
     getProductDetailListFail
-} from './productDetail';
+} from './productList';
 
 export {
    initialFacilityGalleries,
