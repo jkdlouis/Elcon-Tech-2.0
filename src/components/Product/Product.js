@@ -9,8 +9,7 @@ import './Product.scss';
 const product = (props) => {
 
     useEffect(() => {
-        props.onInitProductCategory()
-        console.log(13)
+        props.onInitProductCategory();
     }, []);
 
     return (

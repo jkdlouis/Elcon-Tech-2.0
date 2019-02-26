@@ -58,7 +58,7 @@ const productList = (props) => {
 
         return (
             <Fragment>
-                { props.match.params.type ? null : <ProductFinder onProductSearch={ onSearchTextHandler }/> }
+                { props.match.params.type === 'all' ? <ProductFinder onProductSearch={ onSearchTextHandler }/> : null }
                 <div className="row text-center justify-content-center align-items-center search-results">
                     { productList }
                 </div>
