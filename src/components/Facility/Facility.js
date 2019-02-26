@@ -27,11 +27,11 @@ export const facility = (props) => {
                 backgroundImage="facility-banner"
             />
 
-            <div className="row justify-content-center align-items-center">
+            <div className="row justify-content-center align-items-center pb-5">
                 <div className="col-12">
-                    <h2>
+                    <h2 className="mt-5 mb-5">
                         <span className="main-green">*</span>
-                        Facility
+                        Facility Equipments
                         <span className="main-green">*</span>
                     </h2>
                 </div>
