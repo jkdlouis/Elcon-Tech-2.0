@@ -22,13 +22,13 @@ const productCategory = (props) => {
     let productCategoryList = <Spinner/>;
 
     if (props.productCategoryList && props.productCategoryList.data.length) {
+        console.log(props.productCategoryList)
         productCategoryList = props.productCategoryList.data.map((data, index) => (
             <div className="col-12 col-md-4" key={`${data.category}-${index}`}
                  onMouseEnter={() => onMouseEnterHandler(index)}
-                 onMouseLeave={() => onMouseLeaveHandler(index)}
-            >
+                 onMouseLeave={() => onMouseLeaveHandler(index)}>
                 <div className="product position-relative">
-                    <Link to={data.url}>
+                    <Link to={ data.url }>
                         <div
                             className={`d-flex justify-content-center align-items-center background ${ data.backgroundClass }`}>
                             <h3 className={`title ${ hoveredState.isHovered[ index ] ? 'd-block' : 'd-none' }`}>

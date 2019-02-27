@@ -32,7 +32,7 @@ const product = (props) => {
                     </Button>
                 </div>
             </div>
-            <ProductCategory productCategoryList={props.productCategoryList}/>
+            <ProductCategory productCategoryList={ props.productCategoryList }/>
         </div>
     );
 };

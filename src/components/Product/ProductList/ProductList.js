@@ -15,11 +15,11 @@ const productList = (props) => {
         props.onInitProductList();
     }, []);
 
-    useEffect(() => {
-        if (props.match.params.type) {
+    if (props.match.params.type !== 'all') {
+        useEffect(() => {
             filterProductListByParams();
-        }
-    }, [filteredProductList]);
+        }, [filteredProductList]);
+    }
 
     const onSearchTextHandler = (value) => {
         filterProductListBySearchText(value);
