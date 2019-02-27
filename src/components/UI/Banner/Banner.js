@@ -29,8 +29,8 @@ export const banner = (props) => {
     return (
       <div className={ `row text-center justify-content-center align-items-center banner ${props.backgroundImage}` }>
           <div className="col-12">
-              <h1>{ h1Title }</h1>
-              <h4>{ props.subtitle }</h4>
+              <h1 className="white">{ h1Title }</h1>
+              <h2 className="white">{ props.subtitle }</h2>
           </div>
       </div>
     )

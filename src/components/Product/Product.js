@@ -22,8 +22,8 @@ const product = (props) => {
 
             <div className="row text-center product-finder">
                 <div className="col-12">
-                    <h2>Aluminum Electrolytic Capacitors Finder</h2>
-                    <h4>Our ecosystem helps you reach to your product easier!</h4>
+                    <h3 className="dark-gray mb-3">Aluminum Electrolytic Capacitors Finder</h3>
+                    <h5 className="dark-gray mb-5">Our ecosystem helps you to reach your product easier!</h5>
                     <Button
                         link="/product/all"
                         btnClass="btn-learn"

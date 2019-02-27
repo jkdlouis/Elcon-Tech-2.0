@@ -8,8 +8,7 @@ const callOutPanel = (props) => {
            <p className="mb-4">{ props.description }</p>
            <Button btnText={ props.btnText }
                    link={ props.link }
-                   btnClass={ props.btnClass }
-           />
+                   btnClass={ props.btnClass }/>
        </div>
    )
 };
