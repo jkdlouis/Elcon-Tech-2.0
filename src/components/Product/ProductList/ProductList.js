@@ -11,11 +11,11 @@ const productList = (props) => {
     const [ searchInputText, setSearchInputText ] = useState('');
     const [ filteredProductList, setFilteredProductList ] = useState([]);
 
-    if (!props.productDetailList.data.length) {
-        useEffect(() => {
+    useEffect(() => {
+        if (!props.productDetailList.data.length) {
             props.onInitProductList();
-        }, []);
-    }
+        }
+    }, []);
 
     if (props.match.params.type !== 'all') {
         useEffect(() => {

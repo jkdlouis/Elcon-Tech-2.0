@@ -9,11 +9,11 @@ import './Home.scss';
 
 const home = (props) => {
 
-    if (!props.timeLine.data.length) {
-        useEffect(() => {
+    useEffect(() => {
+        if (!props.timeLine.data.length) {
             props.onInitTimeLine();
-        }, []);
-    }
+        }
+    }, []);
 
     return (
         <div className="home" id="home">
