@@ -20,8 +20,8 @@ const timeLine = (props) => {
                                 { background: 'rgb(233, 30, 99)', color: '#fff' }
                                 : { background: 'rgb(33, 150, 243)', color: '#fff' }
                             }>
-                            <h3 className="vertical-timeline-element-title">{data.title}</h3>
-                            <h4 className="vertical-timeline-element-subtitle">{data.location}</h4>
+                            <h5 className="vertical-timeline-element-title mb-3 font-weight-bold">{data.title}</h5>
+                            <h6 className="vertical-timeline-element-subtitle font-weight-bold">{data.location}</h6>
                             <p>
                                 {data.description}
                             </p>

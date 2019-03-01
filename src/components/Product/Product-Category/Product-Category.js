@@ -22,7 +22,6 @@ const productCategory = (props) => {
     let productCategoryList = <Spinner/>;
 
     if (props.productCategoryList && props.productCategoryList.data.length) {
-        console.log(props.productCategoryList)
         productCategoryList = props.productCategoryList.data.map((data, index) => (
             <div className="col-12 col-md-4" key={`${data.category}-${index}`}
                  onMouseEnter={() => onMouseEnterHandler(index)}

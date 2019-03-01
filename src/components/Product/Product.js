@@ -8,9 +8,11 @@ import './Product.scss';
 
 const product = (props) => {
 
-    useEffect(() => {
-        props.onInitProductCategory();
-    }, []);
+    if (!props.productCategoryList.data.length) {
+        useEffect(() => {
+            props.onInitProductCategory();
+        }, []);
+    }
 
     return (
         <div className="product-page" id="product-page">
