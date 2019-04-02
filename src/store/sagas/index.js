@@ -3,6 +3,7 @@ import { initialTimeLineSaga } from "./timeline";
 import { initialProductCategorySaga } from './productCategory';
 import { initialProductDetailSaga } from "./productList";
 import { initialFacilityGallerySaga } from "./facility";
+import { initialContactSaga } from './contact';
 import * as actionTypes from '../actions/actionTypes';
 
 export function* watchTimeLine() {
@@ -16,4 +17,8 @@ export function* watchProduct() {
 
 export function* watchFacility() {
     yield takeEvery(actionTypes.INIT_FACILITY_GALLERIES, initialFacilityGallerySaga)
+}
+
+export function* watchContact() {
+    yield takeEvery(actionTypes.INIT_CONTACT_LIST, initialContactSaga);
 }

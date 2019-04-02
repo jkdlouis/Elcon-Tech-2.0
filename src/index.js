@@ -10,7 +10,8 @@ import timeLineReducer from './store/reducers/timeline';
 import productCategoryReducer from "./store/reducers/productCategory";
 import productDetailReducer from "./store/reducers/productList";
 import facilityReducer from "./store/reducers/facility";
-import { watchTimeLine, watchProduct, watchFacility } from "./store/sagas";
+import contactReducer from "./store/reducers/contact";
+import { watchTimeLine, watchProduct, watchFacility, watchContact } from "./store/sagas";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/scss/font-awesome.scss';
 import './index.scss';
@@ -21,7 +22,8 @@ const rootReducer = combineReducers({
     timeLine: timeLineReducer,
     productCategoryList: productCategoryReducer,
     productDetailList: productDetailReducer,
-    facilityGalleries: facilityReducer
+    facilityGalleries: facilityReducer,
+    contactList: contactReducer
 });
 
 const sagaMiddleware = createSagaMiddleware();
@@ -31,6 +33,7 @@ const store = createStore(rootReducer, composeEnhancers(applyMiddleware(sagaMidd
 sagaMiddleware.run(watchTimeLine);
 sagaMiddleware.run(watchProduct);
 sagaMiddleware.run(watchFacility);
+sagaMiddleware.run(watchContact);
 
 const app = (
     <Provider store={ store }>

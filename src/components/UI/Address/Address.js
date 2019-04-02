@@ -1,0 +1,29 @@
+import React, { Fragment } from 'react';
+import Spinner from '../Spinner/Spinner';
+import './Address.scss';
+
+const address = (props) => {
+    let contactList = <Spinner/>;
+
+    if (props.contactList && props.contactList.data.length) {
+        contactList = props.contactList.data.map((data) => (
+            <div className="col-12 col-md-4">
+                <address>
+                    <p><strong>{ data.title }</strong></p>
+                    <p>Tel：{ data.phone }</p>
+                    <p>Fax：{ data.fax }</p>
+                    <p className={ data.webLink ? 'd-block' : 'd-none' }>Web：<a href={ data.webLink } target="_blank">{ data.webText }</a></p>
+                    <p> E-mail：<a href={ data.email }>{ data.email }</a></p>
+                    <p>Add：{ data.address }</p>
+                </address>
+            </div>
+        ));
+    }
+    return (
+        <Fragment>
+            { contactList }
+        </Fragment>
+    )
+};
+
+export default address;

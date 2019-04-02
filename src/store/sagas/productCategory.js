@@ -8,6 +8,6 @@ export function* initialProductCategorySaga() {
         const response = yield axios.get(URL.PRODUCT_CATEGORY_API);
         yield put(actions.getProductCategoryList(response.data.data));
     } catch(error) {
-        yield put(actions.getProductCategoryListFail(error))
+        yield put(actions.getProductCategoryListFail(error));
     }
 }

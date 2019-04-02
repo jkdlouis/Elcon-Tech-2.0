@@ -21,3 +21,9 @@ export {
    getFacilityGalleries,
    getFacilityGalleriesFail
 } from './facility';
+
+export {
+    initialContactList,
+    getContactList,
+    getContactListFail
+} from './contact';

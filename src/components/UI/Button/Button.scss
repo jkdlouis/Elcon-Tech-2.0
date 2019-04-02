@@ -16,6 +16,11 @@
   }
 }
 
+.send-btn {
+  background-color: $main-green !important;
+  color: white !important;
+}
+
 @media (max-width: 767px) {
   .btn-learn {
     display: flex;

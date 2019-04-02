@@ -1,0 +1,12 @@
+@import '../../../colors';
+
+.contact-form {
+  padding: 3rem;
+  font-size: 1.25em;
+  line-height: 2em;
+  background-color: $light-gray;
+  .send-btn {
+    background-color: $main-green;
+    color: white;
+  }
+}
