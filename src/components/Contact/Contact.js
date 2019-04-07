@@ -21,7 +21,7 @@ const contact = (props) => {
                     subtitle={ `"Our professional team of customer care is ready to hear from you"` }
                     backgroundImage="contact-banner"
                 />
-                <div className="row justify-content-center align-items-center mt-5">
+                <div className="row justify-content-center align-items-center mt-3">
                     <div className="col-4">
                         <Form />
                     </div>

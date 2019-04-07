@@ -7,7 +7,7 @@ const address = (props) => {
 
     if (props.contactList && props.contactList.data.length) {
         contactList = props.contactList.data.map((data) => (
-            <div className="col-12 col-md-4">
+            <div className="col-12 col-md-4" key={ data.title }>
                 <address>
                     <p><strong>{ data.title }</strong></p>
                     <p>Tel：{ data.phone }</p>
