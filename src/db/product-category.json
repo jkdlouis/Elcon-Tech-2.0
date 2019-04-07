@@ -34,6 +34,11 @@
       "category": "Special Application Series",
       "url": "/product/special-app",
       "backgroundClass": "special-app"
+    },
+    {
+      "category": "Hybrid Series",
+      "url": "/product/hybrid",
+      "backgroundClass": "hybrid"
     }
   ]
 }

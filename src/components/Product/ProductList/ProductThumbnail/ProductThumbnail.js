@@ -3,7 +3,7 @@ import './ProductThumbnail.scss';
 
 const productThumbnail = (props) => {
     return (
-        <div className="col-12 col-md-6 col-lg-3 thumbnail" key={props.product.series}>
+        <div className="col-12 col-md-5 col-lg-3 thumbnail text-center" key={props.product.series}>
             <img src={props.product.image} alt={props.product.alt}/>
             <ul className="list-unstyled mb-0">
                 <li>Series: {props.product.series}</li>

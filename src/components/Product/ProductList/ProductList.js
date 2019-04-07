@@ -11,13 +11,15 @@ const productList = (props) => {
     const [ searchInputText, setSearchInputText ] = useState('');
     const [ filteredProductList, setFilteredProductList ] = useState([]);
 
+    const { type } = props.match.params;
+
     useEffect(() => {
         if (!props.productDetailList.data.length) {
             props.onInitProductList();
         }
     }, []);
 
-    if (props.match.params.type !== 'all') {
+    if (type !== 'all') {
         useEffect(() => {
             filterProductListByParams();
         }, [filteredProductList]);
@@ -33,7 +35,7 @@ const productList = (props) => {
     }, 500);
 
     const filterProductListByParams = () => {
-        setFilteredProductList(props.productDetailList.data.filter(product => product.type.toLowerCase().includes(props.match.params.type.toLowerCase())));
+        setFilteredProductList(props.productDetailList.data.filter(product => product.type.toLowerCase().includes(type.toLowerCase())));
     };
 
         let productList = <Spinner/>;
@@ -54,14 +56,14 @@ const productList = (props) => {
             })
         } else {
             if (searchInputText) {
-                productList = 'No product found.';
+                productList = (<strong className="fs-26">No product found.</strong>);
             }
         }
 
         return (
             <Fragment>
-                { props.match.params.type === 'all' ? <ProductFinder onProductSearch={ onSearchTextHandler }/> : null }
-                <div className="row text-center justify-content-center align-items-center search-results">
+                { type === 'all' ? <ProductFinder onProductSearch={ onSearchTextHandler }/> : null }
+                <div className="row justify-content-center align-items-center search-results">
                     { productList }
                 </div>
             </Fragment>

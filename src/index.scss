@@ -23,7 +23,7 @@ h3, h4 {
   letter-spacing: 2px;
 }
 
-a:hover, a:focus {
+a:hover, a:focus, button {
   cursor: pointer;
   text-decoration: none;
 }
@@ -46,5 +46,9 @@ a:hover, a:focus {
 
 .dark-gray {
   color: $dark-gray
+}
+
+.fs-26 {
+  font-size: 26px;
 }
 

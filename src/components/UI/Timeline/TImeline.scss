@@ -18,11 +18,21 @@
       }
   }
 
+@media only screen and (max-width:991px) {
+    .vertical-timeline--two-columns
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
+      left: -9.5%;
+      position: absolute;
+      top: 0;
+    }
+  }
+
 @media only screen and (max-width:767px) {
     .vertical-timeline--two-columns
     .vertical-timeline-element-content
     .vertical-timeline-element-date {
-      left: -23%;
+      left: -26%;
       position: absolute;
       top: 0;
     }

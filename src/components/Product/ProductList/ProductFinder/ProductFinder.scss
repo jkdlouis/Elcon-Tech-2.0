@@ -18,6 +18,7 @@
   .form-control {
     border-left: 0;
     border-radius: 0;
+    background-clip: border-box;
   }
   .search-input {
     width: 400px;
@@ -33,5 +34,17 @@
   }
   .fa.fa-search {
     color: #495057;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #product-finder {
+    .search-input {
+      width: 300px;
+    }
+    .form-control {
+      font-size: 0.7em;
+      padding: 0 5px;
+    }
   }
 }

@@ -4,24 +4,40 @@
   background-color: $main-green;
 }
 
-.navbar-expand-xl .navbar-collapse {
-  justify-content: center;
-  align-items: center;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: white !important;
-  margin-right: 55px;
-
-  &:active {
-   color: rgba(0,0,0,.7);
+.navbar-expand-xl {
+  .navbar-collapse {
+    justify-content: center;
+    align-items: center;
   }
 }
 
+.navbar-light {
+   .navbar-nav {
+      .nav-link {
+      color: white !important;
+      margin-right: 55px;
+
+      &:active {
+        color: rgba(0, 0, 0, .7);
+      }
+    }
+  }
+  .navbar-toggler {
+    margin: 0 auto;
+    border-color: black !important;
+  }
+}
 
 @media screen and (max-width: 767px) {
-  .navbar-light .navbar-nav .nav-link {
-    margin-right: 0;
-    align-self: center
+  .navbar-light {
+    .navbar-nav {
+      .nav-link {
+        margin-right: 0;
+        align-self: center;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+        width: 25%;
+        text-align: center;
+      }
+    }
   }
 }

@@ -7,8 +7,8 @@ const address = (props) => {
 
     if (props.contactList && props.contactList.data.length) {
         contactList = props.contactList.data.map((data) => (
-            <div className="col-12 col-md-4" key={ data.title }>
-                <address>
+            <div className="col-12 col-md-6 col-lg-4" key={ data.title }>
+                <address className="d-flex flex-column justify-content-around">
                     <p><strong>{ data.title }</strong></p>
                     <p>Tel：{ data.phone }</p>
                     <p>Fax：{ data.fax }</p>

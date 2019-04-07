@@ -1,5 +1,12 @@
 @import '../../../colors';
 
-.thank-msg {
-  font-size: 25px;
+#contact-form {
+  .send-btn {
+    margin: 0 auto;
+    display: block;
+  }
+  .thank-msg {
+    font-size: 25px;
+  }
 }
+

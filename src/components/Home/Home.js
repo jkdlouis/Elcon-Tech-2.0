@@ -17,7 +17,7 @@ const home = (props) => {
 
     return (
         <div className="home" id="home">
-            <div className="row">
+            <div className="row d-none d-md-block">
                 <div className="col-12 p-0">
                     <Carousel>
                         <Carousel.Item>

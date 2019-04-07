@@ -35,7 +35,7 @@ export const facility = (props) => {
                         <span className="main-green">*</span>
                     </h2>
                 </div>
-                <div className="col-12 col-md-6">
+                <div className="col-12 col-md-8 col-lg-6">
                     {facilityGallery}
                 </div>
             </div>

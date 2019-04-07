@@ -23,17 +23,16 @@ const productCategory = (props) => {
 
     if (props.productCategoryList && props.productCategoryList.data.length) {
         productCategoryList = props.productCategoryList.data.map((data, index) => (
-            <div className="col-12 col-md-4" key={`${data.category}-${index}`}
+            <div className="col-12 col-md-6 col-lg-4" key={`${data.category}-${index}`}
                  onMouseEnter={() => onMouseEnterHandler(index)}
                  onMouseLeave={() => onMouseLeaveHandler(index)}>
                 <div className="product position-relative">
                     <Link to={ data.url }>
-                        <div
-                            className={`d-flex justify-content-center align-items-center background ${ data.backgroundClass }`}>
+                        <div className={`d-flex justify-content-center align-items-center background ${ data.backgroundClass }`}>
                             <h3 className={`title ${ hoveredState.isHovered[ index ] ? 'd-block' : 'd-none' }`}>
                                 { data.category }
                             </h3>
-                            <h3 className="title d-block d-md-none">
+                            <h3 className="title d-block d-lg-none">
                                 { data.category }
                             </h3>
                         </div>
