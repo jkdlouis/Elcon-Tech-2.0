@@ -12,7 +12,13 @@ const address = (props) => {
                     <p><strong>{ data.title }</strong></p>
                     <p>Tel：{ data.phone }</p>
                     <p>Fax：{ data.fax }</p>
-                    <p className={ data.webLink ? 'd-block' : 'd-none' }>Web：<a href={ data.webLink } target="_blank">{ data.webText }</a></p>
+                    <p className={ data.webLink ? 'd-block' : 'd-none' }>Web：
+                        <a href={ data.webLink }
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        { data.webText }
+                        </a>
+                    </p>
                     <p> E-mail：<a href={ data.email }>{ data.email }</a></p>
                     <p>Add：{ data.address }</p>
                 </address>

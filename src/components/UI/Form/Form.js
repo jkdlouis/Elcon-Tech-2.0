@@ -11,7 +11,8 @@ export const form = (props) => {
             elementConfig: {
                 type,
                 placeholder,
-                id: placeholder
+                id: placeholder,
+                name: placeholder
             },
             value: '',
             validation: {
@@ -35,15 +36,6 @@ export const form = (props) => {
         formIsValid: false,
         isSubmitted: false
     });
-
-    const submitHandler = (event) => {
-        if (formState.formIsValid) {
-            alert('Your form has been submitted!');
-            setFormState({ isSubmitted: true });
-        } else {
-            alert('Form is invalid')
-        }
-    };
 
     const inputChangeHandler = (event, inputIdentifier) => {
         if (inputIdentifier === 'phone') {
@@ -83,9 +75,8 @@ export const form = (props) => {
     }
 
     let form = (
-        <form action="http://formspree.io/0563louishuang@gmail.com"
+        <form action="https://formspree.io/0563.louis.huang@gmail.com"
               method="POST"
-              onSubmit={ submitHandler }
               noValidate>
             <fieldset>
                 {formElementArray.map(formElement => (
@@ -99,14 +90,15 @@ export const form = (props) => {
                         touched={formElement.config.touched}
                         fieldName={ formElement.id }
                         changed={(event) => inputChangeHandler(event, formElement.id)}
-                        label={ formElement.config.elementConfig.placeholder }
                     />
                 ))
                 }
             </fieldset>
             <button
                 type="submit"
-                className={ `btn btn-lg send-btn ${formState.formIsValid ? '' : 'disabled'}`}>
+                value="Send"
+                className={ `btn btn-lg send-btn ${formState.formIsValid ? '' : 'disabled' }`}
+                disabled={ !formState.formIsValid }>
                 Send
             </button>
         </form>
@@ -116,7 +108,9 @@ export const form = (props) => {
         form = (
             <div className="row mt-3">
                 <div className="col-12 text-center">
-                    <strong className="main-green thank-msg">Thank you for submitting the form, our team will get back to you.</strong>
+                    <strong className="main-green thank-msg">
+                        Thank you for submitting the form, our team will get back to you.
+                    </strong>
                 </div>
             </div>
         )

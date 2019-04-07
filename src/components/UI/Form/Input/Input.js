@@ -15,7 +15,7 @@ const input = (props) => {
     switch(props.elementType) {
         case ('input'):
             inputElement = <input
-                className="form-control mb-0"
+                className="form-control"
                 { ...props.elementConfig }
                 value={ props.value }
                 onChange={ props.changed }/>;
@@ -39,10 +39,6 @@ const input = (props) => {
 
     return (
         <div className="form-group">
-            <label htmlFor={ props.label }
-                   className="invisible"
-                   name={ props.label }
-            >{ props.label }</label>
             { inputElement }
             { validationError }
         </div>

@@ -16,7 +16,8 @@ const productThumbnail = (props) => {
                 <a role="button"
                    href={props.product.filePath}
                    className="btn btn-learn"
-                   target="_blank">
+                   target="_blank"
+                   rel="noopener noreferrer">
                     Download
                 </a>
         </div>
