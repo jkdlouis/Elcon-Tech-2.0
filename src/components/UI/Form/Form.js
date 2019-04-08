@@ -76,7 +76,7 @@ export const form = (props) => {
 
     let form = (
         <form id="contact-form"
-              action="https://formspree.io/0563.louis.huang@gmail.com"
+              action="https://formspree.io/info@elcon-fsd.com"
               method="POST"
               noValidate>
             <fieldset>
