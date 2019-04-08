@@ -10,8 +10,8 @@ const navigation = (props) => {
                 <Navbar collapseOnSelect expand="xl">
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="text-center">
-                                    <Link to="/">Home</Link>
+                        <Nav className="text-center w-100 d-flex justify-content-center align-items-center">
+                                    <Link className="ml-md-5" to="/">Home</Link>
                                     <Link to="/product">Product</Link>
                                     <Link to="/facility">Facility</Link>
                                     <Link to="/contact">Contact</Link>
