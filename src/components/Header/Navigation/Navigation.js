@@ -1,22 +1,23 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Navigation.scss';
 
 const navigation = (props) => {
     return (
         <div className="row">
             <div className="col-12 pr-0 pl-0">
-            <Navbar collapseOnSelect expand="xl">
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ml-md-5">
-                        <Nav.Link href="/home">Home</Nav.Link>
-                        <Nav.Link href="/product">Product</Nav.Link>
-                        <Nav.Link href="/facility">Facility</Nav.Link>
-                        <Nav.Link href="/contact">Contact</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
+                <Navbar collapseOnSelect expand="xl">
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="text-center">
+                                    <Link to="/">Home</Link>
+                                    <Link to="/product">Product</Link>
+                                    <Link to="/facility">Facility</Link>
+                                    <Link to="/contact">Contact</Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
             </div>
         </div>
     )

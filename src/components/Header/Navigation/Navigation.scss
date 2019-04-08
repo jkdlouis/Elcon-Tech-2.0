@@ -2,6 +2,11 @@
 
 .navbar {
   background-color: $main-green;
+  a {
+    display: inline-block;
+    margin: 10px 13% 10px 0;
+    color: white;
+  }
 }
 
 .navbar-expand-xl {
@@ -31,6 +36,12 @@
 @media screen and (max-width: 767px) {
   .navbar-light {
     .navbar-nav {
+      a {
+        margin: 10px auto;
+        display: block;
+        border-bottom: 1px solid black;
+        width: 25%;
+      }
       .nav-link {
         margin-right: 0;
         align-self: center;
