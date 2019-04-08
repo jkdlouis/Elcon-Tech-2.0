@@ -2,6 +2,7 @@
   "data": [
     {
       "title": "Elcon Electronics Technology (Shaoguan) Co., Ltd.",
+      "type": "Factory Site",
       "phone": "0751-6830668",
       "fax": "0751-6830668",
       "webText": "www.elcon-fsd.com",
@@ -11,6 +12,7 @@
     },
     {
       "title": "Elcon Technology Limited",
+      "type": "Sales Office",
       "phone": "852-69451164",
       "fax": "852-23331569",
       "webText": "www.elcon.com.tw",
@@ -20,6 +22,7 @@
     },
     {
       "title": "Shenzhen Elcon Technology Limited",
+      "type": "Sales Office",
       "phone": "0755-29022277",
       "fax": "0755-29022189",
       "webText": "www.elcon-fsd.com",
@@ -29,6 +32,7 @@
     },
     {
       "title": "GTC Technologies Corporation",
+      "type": "Sales Channels",
       "phone": "886-2-25147896",
       "fax": "886-2-25147893",
       "webText": "www.elcon-fsd.com",
@@ -38,6 +42,7 @@
     },
     {
       "title": "Smart Source Engineering Ltd.",
+      "type": "Sales Channels",
       "phone": "852-21486648",
       "fax": "852-21486649",
       "webText": "",
@@ -47,6 +52,7 @@
     },
     {
       "title": "Shenzhen Smart Success Technology Ltd.",
+      "type": "Sales Channels",
       "phone": "0755-82130644",
       "fax": "0755-82133370",
       "webText": "",
@@ -56,6 +62,7 @@
     },
     {
       "title": "Shenzhen Uni-Power Technology Co. Ltd.",
+      "type": "Sales Channels",
       "phone": "0755-29022277",
       "fax": "0755-29022189",
       "webText": "",

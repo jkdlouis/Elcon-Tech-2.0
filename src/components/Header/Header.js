@@ -1,8 +1,10 @@
 import React, { Fragment } from 'react';
 import Navigation from './Navigation/Navigation';
+import { IMAGE_PATH } from "../../constants";
 import './Header.scss';
 
 const header = (props) => {
+
     return (
         <Fragment>
             <div className="row contact-header">
@@ -26,7 +28,7 @@ const header = (props) => {
             <div className="row">
                 <div className="col-12 d-flex justify-content-center align-items-center">
                     <a href="/home">
-                        <img src="/assets/images/logos/elcon-logo.png"
+                        <img src={ `${IMAGE_PATH}/logos/elcon-logo.png` }
                              className="img-responsive elcon-logo w-100"
                              alt="Elcon Logo"/>
                     </a>

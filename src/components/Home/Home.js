@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import CallOutPanel from '../UI/CalloutPanel/CalloutPanel';
 import Button from '../UI/Button/Button';
 import TimeLine from '../UI/Timeline/Timeline';
+import { IMAGE_PATH } from "../../constants";
 import * as actions from '../../store/actions/index';
 import './Home.scss';
 
@@ -23,7 +24,7 @@ const home = (props) => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="assets/images/carousel/home_ribbon.jpg"
+                                src={ `${IMAGE_PATH}/carousel/home_ribbon.jpg` }
                                 alt="First slide"
                             />
                             <Button link="/#about"
@@ -40,7 +41,7 @@ const home = (props) => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="assets/images/carousel/component_supply_chain.jpg"
+                                src={ `${IMAGE_PATH}/carousel/component_supply_chain.jpg` }
                                 alt="Second slide"
                             />
                             <Button link="/product"
@@ -57,7 +58,7 @@ const home = (props) => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="assets/images/carousel/customer_relationship.jpg"
+                                src={ `${IMAGE_PATH}/carousel/customer_relationship.jpg` }
                                 alt="Third slide"
                             />
                             <Button className="d-block d-md-none"
@@ -135,7 +136,7 @@ const home = (props) => {
                         </h3>
                         <h4>We Are a Certified Supplier Of Aluminum Electrolytic Capacitors</h4>
                         <img className="img-responsive w-100"
-                             src="assets/images/backgrounds/certificates.jpg"
+                             src={ `${IMAGE_PATH}/backgrounds/certificates.jpg` }
                              alt="Elcon Business Certificate"/>
                     </div>
                 </div>

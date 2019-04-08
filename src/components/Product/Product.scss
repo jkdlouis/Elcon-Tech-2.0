@@ -17,3 +17,20 @@
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  #product-page {
+    .product-finder {
+      h3 {
+        font-size: 1.3em;
+      }
+      h5 {
+        font-size: 1em;
+      }
+      .btn-learn {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+

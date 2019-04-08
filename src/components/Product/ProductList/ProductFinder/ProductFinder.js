@@ -7,7 +7,7 @@ const productFinder = (props) => {
         <div className="row text-center justify-content-center align-items-center" id="product-finder">
             <div className="col-12">
                 <h1>Product Finder</h1>
-                <h4>Faster Product Search With Just Series Code Or Key Words</h4>
+                <h4 className="d-none d-md-block">Faster Product Search With Just Series Code</h4>
                 <InputGroup className="search-input" id="product-search">
                     <label htmlFor="product-search" className="sr-only">
                         Search Products
