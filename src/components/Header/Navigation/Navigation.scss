@@ -11,6 +11,9 @@
       color: black;
     }
   }
+  .navbar-nav {
+    padding-left: auto !important;
+  }
 }
 
 #responsive-navbar-nav {
@@ -44,5 +47,8 @@
 @media screen and (max-width: 767px) {
   .navbar {
     padding: 10px 0;
+    //.navbar-nav {
+    //  padding-left:
+    //}
   }
 }
