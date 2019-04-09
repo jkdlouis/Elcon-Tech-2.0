@@ -4,8 +4,9 @@
   background-color: $main-green;
   a {
     display: inline-block;
-    margin: 10px 50px 10px 0;
+    margin: 10px auto;
     color: white;
+    font-weight: bold;
   }
 }
 
@@ -40,14 +41,5 @@
 @media screen and (max-width: 767px) {
   .navbar {
     padding: 10px 0;
-  }
-
-  .navbar-light {
-    .navbar-nav {
-      a {
-        margin: 10px auto;
-        display: block;
-      }
-    }
   }
 }
