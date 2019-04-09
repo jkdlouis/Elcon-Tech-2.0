@@ -1,18 +1,11 @@
-import React, { useEffect } from 'react';
-import { connect } from 'react-redux';
+import React from 'react';
 import Banner from '../UI/Banner/Banner';
 import Button from '../UI/Button/Button';
 import ProductCategory from './Product-Category/Product-Category';
-import * as actions from '../../store/actions/index';
+import productCategoryList from '../../db/product-category';
 import './Product.scss';
 
 const product = (props) => {
-
-    useEffect(() => {
-        if (!props.productCategoryList.data.length) {
-            props.onInitProductCategory();
-        }
-    }, []);
 
     return (
         <div className="product-page" id="product-page">
@@ -34,21 +27,9 @@ const product = (props) => {
                     </Button>
                 </div>
             </div>
-            <ProductCategory productCategoryList={ props.productCategoryList }/>
+            <ProductCategory productCategoryList={ productCategoryList }/>
         </div>
     );
 };
 
-const mapStateToProps = state => {
-    return {
-        productCategoryList: state.productCategoryList
-    }
-};
-
-const mapDispatchToProps = dispatch => {
-    return {
-        onInitProductCategory: () => dispatch(actions.initialProductCategoryList())
-    }
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(product);
+export default product;

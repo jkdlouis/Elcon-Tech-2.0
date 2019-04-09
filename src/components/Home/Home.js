@@ -1,20 +1,13 @@
-import React, { useEffect } from 'react';
-import { connect } from 'react-redux';
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import CallOutPanel from '../UI/CalloutPanel/CalloutPanel';
 import Button from '../UI/Button/Button';
 import TimeLine from '../UI/Timeline/Timeline';
 import { IMAGE_PATH } from "../../constants";
-import * as actions from '../../store/actions/index';
+import timeLine from '../../db/timeline';
 import './Home.scss';
 
 const home = (props) => {
-
-    useEffect(() => {
-        if (!props.timeLine.data.length) {
-            props.onInitTimeLine();
-        }
-    }, []);
 
     return (
         <div className="home" id="home">
@@ -122,7 +115,7 @@ const home = (props) => {
                         <span className="main-green">*</span>
                     </h2>
                     <TimeLine
-                        timeLineData={ props.timeLine }
+                        timeLineData={ timeLine }
                     />
                 </div>
             </div>
@@ -145,16 +138,4 @@ const home = (props) => {
     );
 };
 
-const mapStateToProps = state => {
-    return {
-        timeLine: state.timeLine
-    };
-};
-
-const mapDispatchToProps = dispatch => {
-    return {
-        onInitTimeLine: () => dispatch(actions.initialTimeLine())
-    }
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(home);
+export default home;

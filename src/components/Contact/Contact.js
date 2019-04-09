@@ -1,18 +1,11 @@
-import React, { useEffect } from 'react';
-import { connect } from 'react-redux';
+import React from 'react';
 import Form from '../UI/Form/Form';
 import Banner from '../UI/Banner/Banner';
 import Address from '../UI/Address/Address';
-import * as actions from '../../store/actions/index';
+import contactList from '../../db/contact';
 import './Contact.scss';
 
 const contact = (props) => {
-
-    useEffect(() => {
-        if (!props.contactList.data.length) {
-            props.onInitContact()
-        }
-    }, []);
 
         return (
             <div id="contact-page" className="">
@@ -27,22 +20,10 @@ const contact = (props) => {
                     </div>
                 </div>
                 <div className="row office-section justify-content-center mt-5">
-                    <Address contactList={ props.contactList }/>
+                    <Address contactList={ contactList }/>
                     </div>
             </div>
         )
 };
 
-const mapStateToProps = state => {
-    return {
-        contactList: state.contactList
-    }
-};
-
-const mapDispatchToProps = dispatch => {
-    return {
-        onInitContact: () => dispatch(actions.initialContactList())
-    }
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(contact);
+export default contact;

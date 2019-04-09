@@ -1,10 +1,9 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import { connect } from 'react-redux';
 import { debounce } from 'lodash/';
 import Spinner from '../../UI/Spinner/Spinner';
 import ProductFinder from './ProductFinder/ProductFinder';
 import ProductThumbnail from './ProductThumbnail/ProductThumbnail';
-import * as actions from '../../../store/actions/index';
+import productDetailList from '../../../db/product-list';
 import './ProductList.scss';
 
 const productList = (props) => {
@@ -12,12 +11,6 @@ const productList = (props) => {
     const [ filteredProductList, setFilteredProductList ] = useState([]);
 
     const { type } = props.match.params;
-
-    useEffect(() => {
-        if (!props.productDetailList.data.length) {
-            props.onInitProductList();
-        }
-    }, []);
 
     if (type !== 'all') {
         useEffect(() => {
@@ -31,17 +24,17 @@ const productList = (props) => {
 
     const filterProductListBySearchText = debounce(query => {
         setSearchInputText(query);
-        setFilteredProductList(props.productDetailList.data.filter(product => product.series.toLowerCase().includes(query)));
+        setFilteredProductList(productDetailList.data.filter(product => product.series.toLowerCase().includes(query)));
     }, 500);
 
     const filterProductListByParams = () => {
-        setFilteredProductList(props.productDetailList.data.filter(product => product.type.toLowerCase().includes(type.toLowerCase())));
+        setFilteredProductList(productDetailList.data.filter(product => product.type.toLowerCase().includes(type.toLowerCase())));
     };
 
         let productList = <Spinner/>;
 
-        if (props.productDetailList && props.productDetailList.data.length) {
-            productList = props.productDetailList.data.map((product, index) => {
+        if (productDetailList && productDetailList.data.length) {
+            productList = productDetailList.data.map((product, index) => {
                 return (
                     <ProductThumbnail key={ `${product.series}-${index}` } product={ product }/>
                 )
@@ -70,16 +63,4 @@ const productList = (props) => {
         );
 };
 
-const mapStateToProps = state => {
-    return {
-        productDetailList: state.productDetailList
-    }
-};
-
-const mapDispatchToProps = dispatch => {
-    return {
-        onInitProductList: () => dispatch(actions.initialProductDetailList())
-    }
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(productList);
+export default productList;

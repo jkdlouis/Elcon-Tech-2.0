@@ -1,22 +1,17 @@
-import React, { useEffect } from 'react';
-import { connect } from 'react-redux';
+import React from 'react';
 import Banner from '../UI/Banner/Banner';
 import Spinner from '../UI/Spinner/Spinner';
 import ImageGallery from 'react-image-gallery';
-import * as actions from '../../store/actions/index';
+import facilityGalleries from '../../db/facility'
 import 'react-image-gallery/styles/scss/image-gallery.scss';
 import './Facility.scss';
 
 export const facility = (props) => {
 
-    useEffect(() => {
-        props.onInitFacilityGalleries();
-    }, []);
-
     let facilityGallery = <Spinner/>;
 
-    if (props.facilityGalleries && props.facilityGalleries.data.length) {
-        facilityGallery = <ImageGallery items={props.facilityGalleries.data}/>
+    if (facilityGalleries && facilityGalleries.data.length) {
+        facilityGallery = <ImageGallery items={facilityGalleries.data}/>
     }
 
     return (
@@ -43,16 +38,4 @@ export const facility = (props) => {
     )
 };
 
-const mapStateToProps = state => {
-    return {
-        facilityGalleries: state.facilityGalleries
-    }
-};
-
-const mapDispatchToProps = dispatch => {
-    return {
-        onInitFacilityGalleries: () => dispatch(actions.initialFacilityGalleries())
-    }
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(facility);
+export default facility;
