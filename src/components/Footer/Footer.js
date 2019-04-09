@@ -23,16 +23,16 @@ const footer = (props) => {
             <div className="row d-none d-md-block">
                 <div className="col-12 text-center footerNav">
                     <ul className="list-unstyled list-inline d-flex justify-content-center align-items-center">
-                        <li className="list-inline-item mr-3">
+                        <li className="list-inline-item mr-5 font-weight-bold">
                             <Link to="/">Home</Link>
                         </li>
-                        <li className="list-inline-item mr-3">
+                        <li className="list-inline-item mr-5 font-weight-bold">
                             <Link to="/product">Product</Link>
                         </li>
-                        <li className="list-inline-item mr-3">
+                        <li className="list-inline-item mr-5 font-weight-bold">
                             <Link to="/facility">Facility</Link>
                         </li>
-                        <li className="list-inline-item">
+                        <li className="list-inline-item font-weight-bold">
                             <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
