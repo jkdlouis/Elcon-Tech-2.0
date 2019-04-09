@@ -85,6 +85,32 @@
       "loadLifeTitle": "105"
     },
     {
+      "series": "HMB",
+      "type": "solid-chip",
+      "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+      "filePath": "/assets/product-pdf/solid-chip-type/HMB.pdf",
+      "image": "/products/solid-chip-type/hmb.png",
+      "alt": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+      "capacitance": "22 ~ 1500μF",
+      "ratedVoltage": "16 ~ 100V",
+      "operationTemp": "-55 ~ +105",
+      "loadLife": "5000 hours",
+      "loadLifeTitle": "105"
+    },
+    {
+      "series": "HMR",
+      "type": "solid-chip",
+      "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+      "filePath": "/assets/product-pdf/solid-chip-type/HMR.pdf",
+      "image": "/products/solid-chip-type/hmr.png",
+      "alt": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+      "capacitance": "22 ~ 1500μF",
+      "ratedVoltage": "16 ~ 100V",
+      "operationTemp": "-55 ~ +125",
+      "loadLife": "4000 hours",
+      "loadLifeTitle": "125"
+    },
+    {
       "series": "PA",
       "type": "solid-lead",
       "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
@@ -167,6 +193,32 @@
       "operationTemp": "-55 ~ +105",
       "loadLife": "20000 hours",
       "loadLifeTitle": "105"
+    },
+    {
+      "series": "HPB",
+      "type": "solid-lead",
+      "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+      "filePath": "/assets/product-pdf/solid-lead-type/HPB.pdf",
+      "image": "/products/solid-lead-type/hpb.png",
+      "alt": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+      "capacitance": "47 ~ 1500μF",
+      "ratedVoltage": "16 ~ 100V",
+      "operationTemp": "-55 ~ +105",
+      "loadLife": "5000 hours",
+      "loadLifeTitle": "105"
+    },
+    {
+      "series": "HPR",
+      "type": "solid-lead",
+      "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+      "filePath": "/assets/product-pdf/solid-lead-type/HPR.pdf",
+      "image": "/products/solid-lead-type/hpr.png",
+      "alt": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+      "capacitance": "47 ~ 1500μF",
+      "ratedVoltage": "16 ~ 100V",
+      "operationTemp": "-55 ~ +125",
+      "loadLife": "4000 hours",
+      "loadLifeTitle": "125"
     },
     {
       "series": "CH",
@@ -633,58 +685,6 @@
       "operationTemp": "-25 ~ +105",
       "loadLife": "2000 hours",
       "loadLifeTitle": "105"
-    },
-    {
-      "series": "HMB",
-      "type": "hybrid",
-      "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
-      "filePath": "/assets/product-pdf/hybrid/HMB.pdf",
-      "image": "/products/hybrid/hmb.png",
-      "alt": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
-      "capacitance": "22 ~ 1500μF",
-      "ratedVoltage": "16 ~ 100V",
-      "operationTemp": "-55 ~ +105",
-      "loadLife": "5000 hours",
-      "loadLifeTitle": "105"
-    },
-    {
-      "series": "HMR",
-      "type": "hybrid",
-      "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
-      "filePath": "/assets/product-pdf/hybrid/HMR.pdf",
-      "image": "/products/hybrid/hmr.png",
-      "alt": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
-      "capacitance": "22 ~ 1500μF",
-      "ratedVoltage": "16 ~ 100V",
-      "operationTemp": "-55 ~ +125",
-      "loadLife": "4000 hours",
-      "loadLifeTitle": "125"
-    },
-    {
-      "series": "HPB",
-      "type": "hybrid",
-      "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
-      "filePath": "/assets/product-pdf/hybrid/HPB.pdf",
-      "image": "/products/hybrid/hpb.png",
-      "alt": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
-      "capacitance": "47 ~ 1500μF",
-      "ratedVoltage": "16 ~ 100V",
-      "operationTemp": "-55 ~ +105",
-      "loadLife": "5000 hours",
-      "loadLifeTitle": "105"
-    },
-    {
-      "series": "HPR",
-      "type": "hybrid",
-      "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
-      "filePath": "/assets/product-pdf/hybrid/HPR.pdf",
-      "image": "/products/hybrid/hpr.png",
-      "alt": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
-      "capacitance": "47 ~ 1500μF",
-      "ratedVoltage": "16 ~ 100V",
-      "operationTemp": "-55 ~ +125",
-      "loadLife": "4000 hours",
-      "loadLifeTitle": "125"
     }
   ]
 }
