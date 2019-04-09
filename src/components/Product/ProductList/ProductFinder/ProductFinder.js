@@ -18,7 +18,7 @@ const productFinder = (props) => {
                         </InputGroup.Text>
                     </InputGroup.Prepend>
                     <FormControl
-                        placeholder="Find product with series number"
+                        placeholder="Find product with series code"
                         aria-label="Product Finder"
                         aria-describedby="product-search"
                         onChange={(event) => props.onProductSearch(event.target.value.toLowerCase())}
