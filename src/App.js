@@ -7,6 +7,7 @@ import Product from './components/Product/Product';
 import ProductList from './components/Product/ProductList/ProductList';
 import Facility from './components/Facility/Facility';
 import Contact from './components/Contact/Contact';
+import NotFound from './components/NotFound/NotFound';
 import './index.scss';
 import './App.scss';
 
@@ -19,6 +20,7 @@ const App = (props) => {
             <Route path="/product/all" exact component={ProductList}/>
             <Route path="/facility" exact component={Facility}/>
             <Route path="/contact" exact component={Contact}/>
+            <Route path="*" component={NotFound}/>
             <Redirect to="/"/>
         </Switch>
     );
