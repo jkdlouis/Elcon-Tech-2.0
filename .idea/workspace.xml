@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f44beb3-2d7b-4c06-9613-5cf030bc8db3" name="Default" comment="">
+    <list default="true" id="7f44beb3-2d7b-4c06-9613-5cf030bc8db3" name="Default" comment="Adding CP and CN products.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NotFound/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NotFound/NotFound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Product/ProductList/ProductList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product/ProductList/ProductList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Timeline/TImeline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Timeline/TImeline.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/product-list.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/product-list.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Product/ProductList/ProductThumbnail/ProductThumbnail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product/ProductList/ProductThumbnail/ProductThumbnail.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,14 +119,7 @@
       <workItem from="1554788087296" duration="994000" />
       <workItem from="1554836495741" duration="201000" />
       <workItem from="1554864076994" duration="2295000" />
-      <workItem from="1584315545835" duration="3239000" />
-    </task>
-    <task id="LOCAL-00014" summary="Completed timeLine component for home page.">
-      <created>1550449427154</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1550449427154</updated>
+      <workItem from="1584315545835" duration="3415000" />
     </task>
     <task id="LOCAL-00015" summary="refactor and simplify timeLine component for home page.">
       <created>1550450252449</created>
@@ -468,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554866461788</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Adding CP and CN products.">
+      <created>1584319004569</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1584319004570</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added react-image-gallery to use in facility section, built action, reducer and saga for facility api call." />
     <MESSAGE value="Upgrade to react version 16.8.3, converted all the class based components to functional components, and use new hooks feature handle state, and life cycle hook." />
     <MESSAGE value="Converted facility from class component to functional component, installed rc-text for text animation" />
     <MESSAGE value="Built gallery slide show for facility equipment section." />
@@ -511,6 +506,7 @@
     <MESSAGE value="Fixed center alignment issue" />
     <MESSAGE value="Built 404 notFound page" />
     <MESSAGE value="Using HashRouter for SPA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using HashRouter for SPA" />
+    <MESSAGE value="Adding CP and CN products." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding CP and CN products." />
   </component>
 </project>
