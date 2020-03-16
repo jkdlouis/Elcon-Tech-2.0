@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Input from './Input/Input';
 import { updateObject, checkValidity } from '../../../shared/utility'
 import './Form.scss';
@@ -74,9 +74,16 @@ export const form = (props) => {
         });
     }
 
+    const inputRef = useRef()
+    let submitUrl = ''
+
+    if (formState.formIsValid && inputRef.current && !inputRef.current.value) {
+        submitUrl = 'https://formspree.io/info@elcon-fsd.com'
+    }
+
     let form = (
         <form id="contact-form"
-              action="https://formspree.io/info@elcon-fsd.com"
+              action={submitUrl}
               method="POST"
               noValidate>
             <fieldset>
@@ -94,6 +101,7 @@ export const form = (props) => {
                     />
                 ))
                 }
+                <input ref={inputRef} className="d-none" name="field_name" type="text" />
             </fieldset>
             <button
                 type="submit"
@@ -118,9 +126,9 @@ export const form = (props) => {
     }
 
     return (
-        <Fragment>
+        <>
             { form }
-        </Fragment>
+        </>
     )
 };
 

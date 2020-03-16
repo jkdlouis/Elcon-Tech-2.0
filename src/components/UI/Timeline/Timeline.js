@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import Spinner from '../Spinner/Spinner';
 import 'react-vertical-timeline-component/style.min.css';
@@ -38,9 +38,9 @@ const timeLine = (props) => {
         }
 
         return (
-            <Fragment>
+            <>
                 {timeLine}
-            </Fragment>
+            </>
         )
     }
 ;

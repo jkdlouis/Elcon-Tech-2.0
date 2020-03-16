@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Navigation from './Navigation/Navigation';
 import { IMAGE_PATH } from "../../constants";
 import './Header.scss';
@@ -6,7 +6,7 @@ import './Header.scss';
 const header = (props) => {
 
     return (
-        <Fragment>
+        <>
             <div className="row contact-header">
                 <div className="col-12">
                     <ul className="list-unstyled list-inline d-flex justify-content-end align-items-center mt-3 mb-3">
@@ -35,7 +35,7 @@ const header = (props) => {
                 </div>
             </div>
             <Navigation/>
-        </Fragment>
+        </>
     )
 };
 

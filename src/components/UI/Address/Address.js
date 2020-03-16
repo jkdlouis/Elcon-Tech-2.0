@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Spinner from '../Spinner/Spinner';
 import './Address.scss';
 
@@ -27,9 +27,9 @@ const address = (props) => {
         ));
     }
     return (
-        <Fragment>
+        <>
             { contactList }
-        </Fragment>
+        </>
     )
 };
 

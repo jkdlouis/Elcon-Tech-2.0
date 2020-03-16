@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { debounce } from 'lodash/';
 import Spinner from '../../UI/Spinner/Spinner';
 import ProductFinder from './ProductFinder/ProductFinder';
@@ -54,12 +54,12 @@ const productList = (props) => {
         }
 
         return (
-            <Fragment>
+            <>
                 { type === 'all' ? <ProductFinder onProductSearch={ onSearchTextHandler }/> : null }
                 <div className="row justify-content-center align-items-center search-results">
                     { productList }
                 </div>
-            </Fragment>
+            </>
         );
 };
 
