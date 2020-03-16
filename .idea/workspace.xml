@@ -3,42 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="7f44beb3-2d7b-4c06-9613-5cf030bc8db3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/products/hybrid/hmb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/products/solid-chip-type/hmb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/products/hybrid/hmr.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/products/solid-chip-type/hmr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/products/hybrid/hpb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/products/solid-lead-type/hpb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/products/hybrid/hpr.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/products/solid-lead-type/hpr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/products/hybrid/hybrid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/product-pdf/hybrid/HMB.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-chip-type/HMB.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/product-pdf/hybrid/HMR.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-chip-type/HMR.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/product-pdf/hybrid/HPB.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-lead-type/HPB.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/product-pdf/hybrid/HPR.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/product-pdf/solid-lead-type/HPR.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Product/Product-Category/Product-Category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product/Product-Category/Product-Category.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/product-category.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/product-category.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NotFound/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NotFound/NotFound.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Product/ProductList/ProductList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product/ProductList/ProductList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Timeline/TImeline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Timeline/TImeline.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db/product-list.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/product-list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="product-list.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/db/product-list.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="221" column="6" selection-start-line="221" selection-start-column="6" selection-end-line="221" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,111 +24,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>htmlFor</find>
-      <find>col-md-3</find>
-      <find>for</find>
-      <find>for=</find>
-      <find>useState</find>
-      <find>fields</find>
-      <find>hoveredState</find>
-      <find>cloneDeep</find>
-      <find>lable</find>
-      <find>props.match.params</find>
-      <find>No</find>
-      <find>ma-mz</find>
-      <find>MA.pid</find>
-      <find>jpg</find>
-      <find>.jpg</find>
-      <find>src</find>
-      <find>/assets/images</find>
-      <find>/assets</find>
-      <find>Browser</find>
-      <find>basename</find>
-      <find>homepage</find>
-      <find>.png</find>
-      <find>pb.</find>
-      <find>.pdf</find>
-      <find>props.</find>
-      <find>props.facilityGalleries</find>
-      <find>props.contactList</find>
-      <find>/store/</find>
-      <find>/hybrid</find>
-      <find>hybrid</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/components/UI/Form</dir>
-      <dir>$PROJECT_DIR$</dir>
-      <dir>$PROJECT_DIR$/src</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/components/Product/ProductDetail/ProductDetail.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/CalloutPanel/CalloutPanel.scss" />
-        <option value="$PROJECT_DIR$/src/components/UI/CalloutPanel/CalloutPanel.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/Timeline/Timeline.js" />
-        <option value="$PROJECT_DIR$/src/store/reducers/productCategory.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/Banner/Banner.js" />
-        <option value="$PROJECT_DIR$/src/store/actions/actionTypes.js" />
-        <option value="$PROJECT_DIR$/src/store/actions/contact.js" />
-        <option value="$PROJECT_DIR$/src/store/actions/index.js" />
-        <option value="$PROJECT_DIR$/src/store/reducers/contact.js" />
-        <option value="$PROJECT_DIR$/src/store/sagas/productCategory.js" />
-        <option value="$PROJECT_DIR$/src/store/sagas/contact.js" />
-        <option value="$PROJECT_DIR$/src/store/sagas/index.js" />
-        <option value="$PROJECT_DIR$/src/shared/utility.js" />
-        <option value="$PROJECT_DIR$/src/store/reducers/facility.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/Form/Input/Input.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/Address/Address.scss" />
-        <option value="$PROJECT_DIR$/src/components/Contact/Contact.scss" />
-        <option value="$PROJECT_DIR$/src/components/Product/ProductList/ProductThumbnail/ProductThumbnail.scss" />
-        <option value="$PROJECT_DIR$/src/components/UI/Form/Form.scss" />
-        <option value="$PROJECT_DIR$/src/components/Footer/Footer.js" />
-        <option value="$PROJECT_DIR$/src/db/contact.json" />
-        <option value="$PROJECT_DIR$/src/components/UI/Address/Address.js" />
-        <option value="$PROJECT_DIR$/src/components/Product/Product-Category/Product-Category.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/Button/Button.scss" />
-        <option value="$PROJECT_DIR$/src/components/Home/Home.scss" />
-        <option value="$PROJECT_DIR$/src/components/Product/Product.scss" />
-        <option value="$PROJECT_DIR$/src/index.scss" />
-        <option value="$PROJECT_DIR$/src/components/Product/ProductList/ProductFinder/ProductFinder.scss" />
-        <option value="$PROJECT_DIR$/src/components/Product/ProductList/ProductFinder/ProductFinder.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/Banner/Banner.scss" />
-        <option value="$PROJECT_DIR$/src/components/Facility/Facility.scss" />
-        <option value="$PROJECT_DIR$/src/components/Footer/Footer.scss" />
-        <option value="$PROJECT_DIR$/src/constants.js" />
-        <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
-        <option value="$PROJECT_DIR$/src/components/Product/ProductList/ProductThumbnail/ProductThumbnail.js" />
-        <option value="$PROJECT_DIR$/src/components/UI/Timeline/TImeline.scss" />
-        <option value="$PROJECT_DIR$/src/components/Header/Navigation/Navigation.js" />
-        <option value="$PROJECT_DIR$/src/components/Header/Navigation/Navigation.scss" />
-        <option value="$PROJECT_DIR$/src/components/UI/Form/Form.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Product/Product.js" />
-        <option value="$PROJECT_DIR$/src/components/Product/ProductList/ProductList.js" />
-        <option value="$PROJECT_DIR$/src/components/Facility/Facility.js" />
-        <option value="$PROJECT_DIR$/src/components/Contact/Contact.js" />
-        <option value="$PROJECT_DIR$/src/components/Home/Home.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/db/product-category.json" />
-        <option value="$PROJECT_DIR$/src/components/Product/Product-Category/Product-Category.scss" />
-        <option value="$PROJECT_DIR$/src/db/product-list.json" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -161,66 +33,17 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="1027" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="elcon-tech-2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elcon-tech-2.0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elcon-tech-2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elcon-tech-2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elcon-tech-2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elcon-tech-2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elcon-tech-2.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elcon-tech-2.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1ZBbgAwFWIwxlBAMkm6lVC5LOpe" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -236,9 +59,9 @@
       <recent name="$PROJECT_DIR$/public/assets/images/products/hybrid" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/assets/images" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/build/assets/images/logos" />
     </key>
   </component>
@@ -295,70 +118,12 @@
       <workItem from="1554590338124" duration="13500000" />
       <workItem from="1554667827107" duration="24068000" />
       <workItem from="1554767531212" duration="13000" />
-      <workItem from="1554773221595" duration="3302000" />
-    </task>
-    <task id="LOCAL-00005" summary="Built call out panel, carousel, and initial set up for time line section.">
-      <created>1549514406110</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1549514406110</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Completed time line history section in home page">
-      <created>1549942714024</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1549942714024</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Used react bootstrap nav bar to replaced original nav bar, and fixed mobile layout in home page.">
-      <created>1549946534354</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1549946534354</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Created UI button component, fixed and improved carousel layout in both desktop and mobile.">
-      <created>1549948499121</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1549948499121</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Fixed timeline and callout panel layout in desktop and mobile.">
-      <created>1549950430058</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1549950430058</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Fixed learn more button, and set up action, reducer, and saga for time line api.">
-      <created>1550298761444</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1550298761444</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Fixed learn more button, and set up action, reducer, and saga for time line api.">
-      <created>1550298799969</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1550298799969</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Adding Spinner UI component.">
-      <created>1550446910551</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1550446910551</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Adding Spinner UI component.">
-      <created>1550449387689</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1550449387689</updated>
+      <workItem from="1554773221595" duration="3864000" />
+      <workItem from="1554780473963" duration="3932000" />
+      <workItem from="1554788087296" duration="994000" />
+      <workItem from="1554836495741" duration="201000" />
+      <workItem from="1554864076994" duration="2295000" />
+      <workItem from="1584315545835" duration="3239000" />
     </task>
     <task id="LOCAL-00014" summary="Completed timeLine component for home page.">
       <created>1550449427154</created>
@@ -640,52 +405,87 @@
       <option name="project" value="LOCAL" />
       <updated>1554774980852</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Fixed product category">
+      <created>1554778987141</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1554778987141</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Fixed search input text">
+      <created>1554780538962</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1554780538963</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Fixed nav layout issue">
+      <created>1554782021758</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1554782021759</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Fixed dowload button width and height">
+      <created>1554782807095</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1554782807095</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Fixed css issue">
+      <created>1554784392186</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1554784392186</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Fixed center alignment issue">
+      <created>1554789016176</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1554789016177</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Built 404 notFound page">
+      <created>1554865239499</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1554865239499</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Built 404 notFound page">
+      <created>1554865321096</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1554865321096</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Using HashRouter for SPA">
+      <created>1554866461788</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1554866461788</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177170000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22483423" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5027125" side_tool="true" weight="0.29784948" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5763441" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4972875" weight="0.8333333" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.328125" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Built action, reducer, and saga for product detail page." />
-    <MESSAGE value="Assets images" />
-    <MESSAGE value="Moving asset folder to public path" />
-    <MESSAGE value="Fixed image paths" />
-    <MESSAGE value="Moving assets to src" />
-    <MESSAGE value="Completing product finder section, product list page, and search product feature." />
-    <MESSAGE value="built product thumbnail into a reusable UI component" />
-    <MESSAGE value="Initial set up of facility page" />
     <MESSAGE value="Added react-image-gallery to use in facility section, built action, reducer and saga for facility api call." />
     <MESSAGE value="Upgrade to react version 16.8.3, converted all the class based components to functional components, and use new hooks feature handle state, and life cycle hook." />
     <MESSAGE value="Converted facility from class component to functional component, installed rc-text for text animation" />
@@ -703,355 +503,14 @@
     <MESSAGE value="Fixed time line date alignment issue in mobile, and added assets back to public folder." />
     <MESSAGE value="Changed form submission destination." />
     <MESSAGE value="Removed all fire base related logic." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed all fire base related logic." />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Form/Form.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/timeline.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="33" selection-end-line="63" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/images/products/hybrid/hybrid.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Product/ProductList/ProductList.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Product/ProductList/ProductThumbnail/ProductThumbnail.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Contact/Contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Address/Address.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Button/Button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Product/Product.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Product/ProductList/ProductFinder/ProductFinder.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Banner/Banner.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Banner/Banner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="106" column="10" lean-forward="true" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Facility/Facility.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="18" lean-forward="true" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Timeline/TImeline.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Timeline/Timeline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Navigation/Navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Navigation/Navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UI/Form/Form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="9" lean-forward="true" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Product/Product-Category/Product-Category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contact.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/images/logos/elcon-logo.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/images/logos/elcon-logo2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/images/logos/elcon-logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Product/Product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Product/ProductList/ProductList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Product/ProductList/ProductThumbnail/ProductThumbnail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Product/ProductList/ProductFinder/ProductFinder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Facility/Facility.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="18" lean-forward="true" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Contact/Contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="78" lean-forward="true" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/images/products/solid-chip-type/hmr.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/images/products/solid-chip-type/hmb.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/images/products/solid-lead-type/hpr.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/images/products/solid-lead-type/hpb.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Product/Product-Category/Product-Category.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/product-category.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/facility.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/contact.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/product-list.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="221" column="6" selection-start-line="221" selection-start-column="6" selection-end-line="221" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <MESSAGE value="Fixed product category" />
+    <MESSAGE value="Fixed search input text" />
+    <MESSAGE value="Fixed nav layout issue" />
+    <MESSAGE value="Fixed dowload button width and height" />
+    <MESSAGE value="Fixed css issue" />
+    <MESSAGE value="Fixed center alignment issue" />
+    <MESSAGE value="Built 404 notFound page" />
+    <MESSAGE value="Using HashRouter for SPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using HashRouter for SPA" />
   </component>
 </project>
