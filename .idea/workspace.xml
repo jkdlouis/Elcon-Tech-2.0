@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f44beb3-2d7b-4c06-9613-5cf030bc8db3" name="Default" comment="Adding new pdf.">
+    <list default="true" id="7f44beb3-2d7b-4c06-9613-5cf030bc8db3" name="Default" comment="Adding fishing prevention to form.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Product/ProductList/ProductList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product/ProductList/ProductList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Address/Address.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Address/Address.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Timeline/Timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Timeline/Timeline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/products/chip-type/ch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/contact.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/contact.json" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +33,10 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -53,6 +53,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -69,18 +70,7 @@
       <recent name="$PROJECT_DIR$/build/assets/images/logos" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -127,14 +117,12 @@
       <workItem from="1554788087296" duration="994000" />
       <workItem from="1554836495741" duration="201000" />
       <workItem from="1554864076994" duration="2295000" />
-      <workItem from="1584315545835" duration="5180000" />
-    </task>
-    <task id="LOCAL-00016" summary="Built Banner UI component, and first section of product page">
-      <created>1550455010304</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1550455010304</updated>
+      <workItem from="1584315545835" duration="5573000" />
+      <workItem from="1584378245330" duration="6000" />
+      <workItem from="1584592214838" duration="1006000" />
+      <workItem from="1584636596836" duration="288000" />
+      <workItem from="1586383101187" duration="3000" />
+      <workItem from="1606505122204" duration="703000" />
     </task>
     <task id="LOCAL-00017" summary="Built product category section in product page, layout still needs to be fixed.">
       <created>1550460120087</created>
@@ -472,11 +460,18 @@
       <option name="project" value="LOCAL" />
       <updated>1584319371173</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Adding fishing prevention to form.">
+      <created>1584322321557</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1584322321557</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -488,10 +483,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Converted facility from class component to functional component, installed rc-text for text animation" />
     <MESSAGE value="Built gallery slide show for facility equipment section." />
     <MESSAGE value="Reusing product list component to render product detail page." />
     <MESSAGE value="Fixed product category re-rendering issue, and life cycle hook issue with product search function." />
@@ -516,6 +511,13 @@
     <MESSAGE value="Using HashRouter for SPA" />
     <MESSAGE value="Adding CP and CN products." />
     <MESSAGE value="Adding new pdf." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new pdf." />
+    <MESSAGE value="Adding fishing prevention to form." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding fishing prevention to form." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="6" y="31" width="1668" height="1013" maximized="true" key="DiffContextDialog" timestamp="1606505911730">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="6" y="31" width="1668" height="1013" maximized="true" key="DiffContextDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1606505911730" />
   </component>
 </project>
