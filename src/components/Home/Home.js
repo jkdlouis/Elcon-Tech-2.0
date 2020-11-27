@@ -132,6 +132,32 @@ const home = (props) => {
                              src={ `${IMAGE_PATH}/backgrounds/certificates.jpg` }
                              alt="Elcon Business Certificate"/>
                     </div>
+                    <div className="col-12 d-flex justify-content-around flex-column flex-lg-row">
+                        <a role="button"
+                           href="/assets/certificates/IATF16949_Certificate.pdf"
+                           className="btn btn-learn"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <span className="d-block">Download IATF16949 Certificate</span>
+                            <span>English/Chinese</span>
+                        </a>
+                        <a role="button"
+                           href="/assets/certificates/ISO9001_Certificate.pdf"
+                           className="btn btn-learn"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <span className="d-block">Download ISO9001 Certificate</span>
+                            <span>English/Chinese</span>
+                        </a>
+                        <a role="button"
+                           href="/assets/certificates/QC080000_Certificate.pdf"
+                           className="btn btn-learn"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <span className="d-block">Download QC080000 Certificate</span>
+                            <span>English/Chinese</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
